@@ -39,13 +39,20 @@ This application uses <a href="https://www.kaggle.com/darshan1504/covid19-detect
 <hr/>
 This project is divided into two major parts.<br/>
 
-1. Three notebooks one for each <b>VGG16, InceptionV3</b> and <b>ResNet50</b> were created to compare the models performance on the same dataset. These pre-trained    models were used as a Feature Extractor and integrated into some classification layers to make the final prediction.<br/>
-   Fine tuning was done on various parameters to improve the accuracy of the model. They are as follows:
-     1. Number of layers in the pre-trained models to unfreeze.
-     2. Number of layers and nodes to add in the classification layers.
-     3. Learning rate.
-     4. Optimizers (Adam or SGD).
-     5. Number of Epochs.
-2. Building and hosting a Stremlit web app that shows the prediction of these models given an image file.
+1. Three notebooks one for each <b>VGG16, InceptionV3</b> and <b>ResNet50</b> were created to compare the models performance on the same dataset. These pre-trained models were used as a Feature Extractor and integrated into some classification layers to make the final prediction.<br/>
+   Fine tuning was done on various parameters to improve the accuracy of the model. They are as follows:<br/> 
+   <ul>
+     <li> Number of layers in the pre-trained models to unfreeze.</li>
+     <li> Number of layers and nodes to add in the classification layers.</li>
+     <li> Learning rate.</li>
+     <li> Optimizers (Adam or SGD).</li>
+     <li> Number of Epochs.</li>
+   </ul>
+2. Building and hosting a <b>Streamlit</b> web app using <b>Spyder</b> IDE that shows the prediction of these models given an image file.
+<hr/>
+
+THoughts about Improvements:
+
+
 
 
