@@ -39,13 +39,14 @@ UserID::MovieID::Rating::Timestamp
 
 ![image](https://user-images.githubusercontent.com/66075772/133790133-8591e896-b412-4e6b-bba9-7524e8edf40d.png)
 
-
 <b>Movies File Description:</b>
 
 Movie information is in the file "movies.dat" and is in the following
 format:
 
 MovieID::Title::Genres
+
+![image](https://user-images.githubusercontent.com/66075772/133790486-41c099c6-240c-407f-ab64-8fc9cf7e06c1.png)
 
 <b>Users File Description:</b>
 
