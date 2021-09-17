@@ -59,6 +59,11 @@ UserID::Gender::Age::Occupation::Zip-code
 
 ### <b>EDA on Movielens dataset:</b>
 ------------------------------------
+In this section I tried to ask some questions that would give me more insight into the data at hand, and provide answers to those questions in the most simple and clear way.
+Some of the sample questions are:
+
+
+
 
 
 
