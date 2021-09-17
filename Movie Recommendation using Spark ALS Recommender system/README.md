@@ -77,7 +77,10 @@ For more elaborate <b>EDA</b>, please refer to the notebook provided <a href="ht
 ### <b>Basic Recommendation:</b>
 --------------------------------
 
-In this section, we recommend 20 movies with Highest Average rating and has 500 or more reviews using Ratings and Movies dataframe.
+In this section, we recommend 20 movies with Highest Average ratings and has 500 or more reviews using Ratings and Movies dataframe.
+
+![image](https://user-images.githubusercontent.com/66075772/133849374-68b6eea4-7364-4e3d-bab7-34b3c3dd05b0.png)
+
 
 
 
