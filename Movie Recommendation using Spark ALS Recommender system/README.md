@@ -62,6 +62,8 @@ UserID::Gender::Age::Occupation::Zip-code
 In this section I tried to ask some questions that would give me more insight into the data at hand, and provide answers to those questions in the most simple and clear way.
 Some of the sample questions are:
 
+![image](https://user-images.githubusercontent.com/66075772/133797609-2a66f64c-a711-44fc-996c-956f1e5d34fb.png)
+
 
 
 
