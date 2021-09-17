@@ -55,6 +55,9 @@ format:
 
 UserID::Gender::Age::Occupation::Zip-code
 
+![image](https://user-images.githubusercontent.com/66075772/133790810-ea3f02df-8a22-45eb-b997-ee210ee9a3d5.png)
+
+
 
 
   
