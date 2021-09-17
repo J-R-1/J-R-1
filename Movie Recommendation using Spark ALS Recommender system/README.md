@@ -57,6 +57,9 @@ UserID::Gender::Age::Occupation::Zip-code
 
 ![image](https://user-images.githubusercontent.com/66075772/133791342-960aa8ad-f732-4de7-a9ba-2d1b39c27ed3.png)
 
+### <b>EDA on Movielens dataset:</b>
+------------------------------------
+
 
 
 
