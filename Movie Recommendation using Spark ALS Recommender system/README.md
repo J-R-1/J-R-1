@@ -81,6 +81,9 @@ In this section, we recommend 20 movies with Highest Average ratings and has 500
 
 ![image](https://user-images.githubusercontent.com/66075772/133849374-68b6eea4-7364-4e3d-bab7-34b3c3dd05b0.png)
 
+### <b>Build the recommender system using ALS:</b>
+--------------------------------------------------
+
 
 
 
