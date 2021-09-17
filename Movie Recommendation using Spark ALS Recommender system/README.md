@@ -64,6 +64,9 @@ Some of the sample questions are:
 
 ![image](https://user-images.githubusercontent.com/66075772/133797609-2a66f64c-a711-44fc-996c-956f1e5d34fb.png)
 
+![image](https://user-images.githubusercontent.com/66075772/133797783-82d04c8d-ad23-421e-9699-76361fe045f2.png)
+
+
 
 
 
