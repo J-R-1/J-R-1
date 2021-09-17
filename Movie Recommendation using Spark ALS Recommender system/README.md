@@ -66,6 +66,10 @@ Some of the sample questions are:
 
 ![image](https://user-images.githubusercontent.com/66075772/133797783-82d04c8d-ad23-421e-9699-76361fe045f2.png)
 
+Most Rated genres:
+![image](https://user-images.githubusercontent.com/66075772/133797925-d36afcc6-b833-4508-980f-1c640802f2aa.png)
+
+
 
 
 
