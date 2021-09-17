@@ -74,6 +74,11 @@ Some of the sample questions are:
 
 For more elaborate <b>EDA</b>, please refer to the notebook provided <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Recommendation%20using%20Spark%20ALS%20Recommender%20system/Movie_Recommendation_ALS.ipynb">here</a>. 
 
+### <b>Basic Recommendation:</b>
+--------------------------------
+
+In this section, we recommend 20 movies with Highest Average rating and has 500 or more reviews using Ratings and Movies dataframe.
+
 
 
 
