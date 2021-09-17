@@ -72,7 +72,7 @@ Some of the sample questions are:
 <b>Top 10 Rated movies:</b>
 ![image](https://user-images.githubusercontent.com/66075772/133798120-d37c67ee-c155-4e90-adc1-b0fa0e7b80e6.png)
 
-For more elaborate <b>EDA</b>, please refer to the notebook provided <a href="url">here</a>. 
+For more elaborate <b>EDA</b>, please refer to the notebook provided <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Recommendation%20using%20Spark%20ALS%20Recommender%20system/Movie_Recommendation_ALS.ipynb">here</a>. 
 
 
 
