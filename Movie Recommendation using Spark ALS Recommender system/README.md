@@ -62,12 +62,20 @@ UserID::Gender::Age::Occupation::Zip-code
 In this section I tried to ask some questions that would give me more insight into the data at hand, and provide answers to those questions in the most simple and clear way.
 Some of the sample questions are:
 
+Number of Unique users and movies from the ratings dataframe:
 ![image](https://user-images.githubusercontent.com/66075772/133797609-2a66f64c-a711-44fc-996c-956f1e5d34fb.png)
 
+Users dataframe analysis:
 ![image](https://user-images.githubusercontent.com/66075772/133797783-82d04c8d-ad23-421e-9699-76361fe045f2.png)
 
 Most Rated genres:
 ![image](https://user-images.githubusercontent.com/66075772/133797925-d36afcc6-b833-4508-980f-1c640802f2aa.png)
+
+Top 10 Rated movies
+![image](https://user-images.githubusercontent.com/66075772/133798120-d37c67ee-c155-4e90-adc1-b0fa0e7b80e6.png)
+
+For more elaborate <b>EDA</b>, please refer to the notebook provided <a href="url">here</a>. 
+
 
 
 
