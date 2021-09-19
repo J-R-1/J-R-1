@@ -105,6 +105,12 @@ please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Re
 --------------------------------------
 This section is used to predict what movies to recommend for Myself. First, I assigned myself Id = 0 and chose 15 familiar movies (the final dataframe from the <b>Basic Recommendation</b> section was used to select the movies for simplicity!.) and gave my own ratings for those movies. I added this list of movies and its ratings to the orginal training data. Then a new <b>ALS</b> model was built using the parameters of the <b>Best ALS</b> model. This new model was used to train the modified training dataset. Finally the prediction was made on the list of movies that I've not watched or rated.
 
+Predicted movies for myself with highest Average ratings and 500 or more reviews:
+
+![image](https://user-images.githubusercontent.com/66075772/133940794-abf2fbf7-5b54-430b-a4bd-2134f9476698.png)
+
+please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Recommendation%20using%20Spark%20ALS%20Recommender%20system/Movie_Recommendation_ALS.ipynb">notebook</a> for model building and implementation.
+
 
 
 
