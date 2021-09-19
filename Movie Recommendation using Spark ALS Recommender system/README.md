@@ -90,8 +90,12 @@ In this section, we use <b><i>SparkML ALS</i></b> algorithm to provide recommend
 
 please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Recommendation%20using%20Spark%20ALS%20Recommender%20system/Movie_Recommendation_ALS.ipynb">notebook</a> for in depth look on Model buliding and performance tuning. 
 
+### <b>Recommendation for a prticular user:</b>
+-----------------------------------------------
 
+In order to make a recommendation for a particular user(e.g, UserId = 1500) we will apply our Best ALS model on the list of movies that user has not yet watched or rated.
 
+<b>Recommendation for UserId = 1500:</b>
 
 
 
