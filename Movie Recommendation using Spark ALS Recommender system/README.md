@@ -93,9 +93,13 @@ please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Re
 ### <b>Recommendation for a prticular user:</b>
 -----------------------------------------------
 
-In order to make a recommendation for a particular user(e.g, UserId = 1500) we will apply our Best ALS model on the list of movies that user has not yet watched or rated.
+In order to make a recommendation for a particular user(e.g, UserId = 1500) we will apply our <b>Best ALS model</b> on the list of movies that user has not yet watched or rated.
 
 <b>Recommendation for UserId = 1500:</b>
+
+![image](https://user-images.githubusercontent.com/66075772/133939393-5b27b88c-2080-46a1-a940-ddf282e13626.png)
+
+please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Recommendation%20using%20Spark%20ALS%20Recommender%20system/Movie_Recommendation_ALS.ipynb">notebook</a> for elaborate application of the model.
 
 
 
