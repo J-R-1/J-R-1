@@ -81,6 +81,8 @@ In this section, we recommend 20 movies with Highest Average ratings and has 500
 
 ![image](https://user-images.githubusercontent.com/66075772/133849374-68b6eea4-7364-4e3d-bab7-34b3c3dd05b0.png)
 
+please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Recommendation%20using%20Spark%20ALS%20Recommender%20system/Movie_Recommendation_ALS.ipynb">notebook</a> for implementation.
+
 ### <b>Build the recommender system using ALS:</b>
 --------------------------------------------------
 In this section, we use <b><i>SparkML ALS</i></b> algorithm to provide recommendations. The ratings dataset is split into 3 parts: training data(60%), validation data(20%), test data(20%). The model was trained on training data and the validation data is used to evaluate the performance of the model by using the <b>RegressionEvaluator</b> method. The <b>Spark CrossValidator</b> function was used to tune the performance of the model. The CrossValidator function performs a grid search on various parameters of the ALS model as well as k-fold cross validation. The validation data is again used to evaluate the <b>Best ALS model</b> obtained as a result of the CrossValidator function. Then the prediction was made against the test data.
