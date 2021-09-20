@@ -105,7 +105,7 @@ please refer to the <a href="https://github.com/J-R-1/J-R-1/blob/main/Movie%20Re
 
 ### <b>Predictioin for Myself:</b>
 --------------------------------------
-This section is used to predict what movies to recommend for Myself. First, I assigned myself Id = 0 and chose 15 familiar movies (the final dataframe from the <b>Basic Recommendation</b> section was used to select the movies for simplicity!.) and gave my own ratings for those movies. I added this list of movies and its ratings to the orginal training data. Then a new <b>ALS</b> model was built using the parameters of the <b>Best ALS</b> model. This new model was used to train the modified training dataset. Finally the prediction was made on the list of movies that I've not watched or rated.
+This section is used to predict what movies to recommend for Myself. First, I assigned myself Id = 0 and chose 15 familiar movies (the final dataframe from the <b>Basic Recommendation</b> section was used to select the movies for simplicity!.) and gave my own ratings for those movies. I added this list of movies and its ratings to the orginal training data. A new <b>ALS</b> model was built using the parameters of the <b>Best ALS</b> model. This new model was used to train the modified training dataset. Finally the prediction was made on the list of movies that I've not watched or rated.
 
 Predicted movies for myself with highest Average ratings and 500 or more reviews:
 
