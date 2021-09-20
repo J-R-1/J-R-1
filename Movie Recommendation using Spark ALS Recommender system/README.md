@@ -2,7 +2,7 @@
 # Movie Recommendation using Spark ALS Recommender system
 <img src="https://media.giphy.com/media/2eKtgBTca0l4atcsPI/giphy.gif?cid=790b76111152f32a380d5cd59abdd73471f8a3f78e9ecaaf&rid=giphy.gif&ct=g" />
 
-A common task of recommender systems is to improve customer experience through personalized recommendations based on prior user feedback. This allows Google to show you relevant ads, Amazon to recommend relevant products, and Netflix to recommend movies that you might like. This <b>project</b> will demonstrate how we can use <b>Apache Spark</b> to recommend movies to a user. We will start with somec basic EDA on the datasets and recommendation techniques, and then use the <b>Spark ML</b> library's <b>Alternating Least Squares</b> method to make more sophisticated predictions.
+A common task of recommender systems is to improve customer experience through personalized recommendations based on prior user feedback. This allows Google to show us relevant ads, Amazon to recommend relevant products, and Netflix to recommend movies that we might like. This <b>project</b> will demonstrate how we can use <b>Apache Spark</b> to recommend movies to a user. We will start with somec basic EDA on the datasets and recommendation techniques, and then use the <b>Spark ML</b> library's <b>Alternating Least Squares</b> method to make more sophisticated predictions.
 
 ### <b>Collaborative filtering and Alternating Least Squares(ALS) algorithm :</b>
 ---------------------------------------------------------------------------------
