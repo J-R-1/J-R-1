@@ -13,7 +13,7 @@ This project focuses on <b>Python, SQL and Tableau Integration</b> as they are i
 ------------------
 
 #### <b>Data Preprocessing:</b> 
-<a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">This Notebook</a> elaborates preprocessing of the raw Absenteesim.csv file.
+<a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">This Notebook</a> elaborates preprocessing of the raw <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">
 
 
 
