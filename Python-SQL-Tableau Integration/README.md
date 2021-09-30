@@ -9,6 +9,9 @@ In a business environment today, problems such as higher competitiveness, unachi
 
 This project focuses on <b>Python, SQL and Tableau Integration</b> as they are indespensible tools for many professionals. We will use Python for Data Preprocessing and Model Building, SQl for Quering and mending data and use Tableau for further analyses.
 
-### <b>Data Preprocessing:</b>
-------------------------------
+### <b>Python:</b>
+------------------
+
+####<b>Data Preprocessing:</b> 
+
 
