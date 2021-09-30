@@ -24,4 +24,10 @@ The <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integ
 #### <b>Integration:</b>
 In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
 
+## <b>SQL</b>
+-------------
+Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>, in this project we will use <b>Python's 'pymysql'</b> package to connect our Jupyter notebooks to MySQL workbench. First we will create a new database in MySQL workbench and  
+
+
+
 
