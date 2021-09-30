@@ -18,5 +18,9 @@ This <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Inte
 #### <b>Model Building:</b>
 We will use <b>Logistic Regression</b> to predict the Absenteeism of an employee. This <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_ML.ipynb">Notebook</a> elaborates the Model building steps and how Backward elimination method is used to simplify the model by removing some of the features(after examining their coefficiants) which have close to No contribution to the model. Finally the simplified Model and the Custom Scalar object which used to scale the features are <b>pickled</b> for later use.
 
+#### <b>Absenteeism Module:</b>
+Here, the 
+
+
 
 
