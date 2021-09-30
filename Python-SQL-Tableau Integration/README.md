@@ -13,7 +13,7 @@ This project focuses on <b>Python, SQL and Tableau Integration</b> as they are i
 ------------------
 
 #### <b>Data Preprocessing:</b> 
-This <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">Notebook</a> elaborates preprocessing of the raw <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism-data.csv">Absenteeism</a> csv file. The steps include removing redundant features, creating dummy variables and grouping them based on their similarities, extracting meaning features from the  existing feature,etc.. The cleaned data then saved in another <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">Notebook</a>
+This <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">Notebook</a> elaborates the preprocessing of raw <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism-data.csv">Absenteeism</a> file. The steps include removing redundant features, creating dummy variables and grouping them based on their feature similarities, extracting meaning features from the existing feature,etc.. The cleaned data then saved in another <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_preprocessed_sql.csv">csv</a> file.
 
 
 
