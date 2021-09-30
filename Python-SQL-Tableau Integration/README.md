@@ -26,7 +26,7 @@ In this section we will explore the <b>Integration</b> part of <b>Python</b> and
 
 ## <b>SQL</b>
 -------------
-Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>, in this project we will use <b>Python's 'pymysql'</b> package to connect our Jupyter notebooks to MySQL workbench. First we will create a new database in MySQL workbench and  
+Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>. In this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebooks to MySQL workbench. We will create a connection object to our database in MySQL workbench. Using <b>execute</b> and <b>commit</b> methods, we will transfer our Model's predicted outputs on a new dataset to a newly created table on our database. By storing our data in a more secure place, it will be easier to manipulate and extract useful information from the data at a later stage.
 
 
 
