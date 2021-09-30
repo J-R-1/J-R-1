@@ -9,7 +9,7 @@ In a business environment today, problems such as higher competitiveness, unachi
 
 This project focuses on <b>Python, SQL and Tableau Integration</b> as they are indespensible tools for many professionals. We will use Python for Data Preprocessing and Model Building, SQL for Quering and mending data and use Tableau for further analyses.
 
-### <b>Python:</b>
+## <b>Python:</b>
 ------------------
 
 #### <b>Data Preprocessing:</b> 
@@ -20,6 +20,9 @@ We will use <b>Logistic Regression</b> to predict the Absenteeism of an employee
 
 #### <b>Absenteeism Module:</b>
 The <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Module.py">Absenteeism Module</a> contains all of the above  preprocessing and machine learning steps in one clean <b>.py</b> file for reusability.
+
+#### <b>Integration:</b>
+
 
 
 
