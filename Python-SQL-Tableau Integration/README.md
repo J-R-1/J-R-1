@@ -33,7 +33,7 @@ The screenshot below shows the database named 'predicted_outputs' and a table (w
 
 Using <b>pymysql</b>, making a connection to our database from Jupyter notebook
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/conn.jpg" />
 
 Creating an <b>Insert</b> query to populate the 'predicted_outputs' table 
 
