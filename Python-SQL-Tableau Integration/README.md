@@ -31,6 +31,18 @@ The screenshot below shows the database named 'predicted_outputs' and a table (w
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
 
+Using <b>pymysql</b>, making a connection to our database from Jupyter notebook
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+
+Creating an <b>Insert</b> query to populate the 'predicted_outputs' table 
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+
+<b>Execute</b> and <b>Commit</b> methods:
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+
 
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_2.png" />
