@@ -37,13 +37,13 @@ Using <b>pymysql</b>, making a connection to our database from Jupyter notebook
 
 Creating an <b>Insert</b> query to populate the 'predicted_outputs' table 
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/insert.png" />
 
 <b>Execute</b> and <b>Commit</b> methods:
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/execute.png" />
 
-
+Querying our 'predicted_outputs' table in MySql workbench
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_2.png" />
 
