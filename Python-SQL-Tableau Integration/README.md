@@ -27,8 +27,11 @@ In this section we will explore the <b>Integration</b> part of <b>Python</b> and
 -------------
 Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>. In this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebooks to MySQL workbench to transfer our Model's predicted outputs on a new dataset. By storing our data in a more secure place, makes it easier to manipulate and extract useful information from the data at a later stage.
 
-Creating a database '
+The screenshot below shows the database named 'predicted_outputs' and a table (with a same name as that of database) with column names and datatypes similar to that of our Model's predicted outputs dataset. 
+
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
+
+
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_2.png" />
 
