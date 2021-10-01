@@ -21,13 +21,20 @@ We will use <b>Logistic Regression</b> to predict the Absenteeism of an employee
 The <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Module.py">Absenteeism Module</a> contains all of the above  preprocessing and machine learning steps in one clean <b>.py</b> file for reusability.
 
 #### <b>Integration:</b>
-In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
+In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. We will use our <b>Absenteeism Module</b> to make a prediction on a new dataset. Using Python's <b>'pymysql'</b> package we will make a connection to our database in MySQL workbench to store our model's predicted outputs.
+
+Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
+
+The new dataset for prediction can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_new_data.csv">here</a>
+
+Model's predicted output can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_predictions.csv">here</a>
+
 
 ## <b>SQL</b>
 
-Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>. In this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebook to MySQL workbench to transfer our Model's predicted outputs on a new dataset. By storing our data in a more secure place, makes it easier to manipulate and extract useful information from the data at a later stage.
+Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>. In this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebook to MySQL workbench. By storing our data in a more secure place, makes it easier to manipulate and extract useful information from the data at a later stage.
 
-The screenshot below shows the database named 'predicted_outputs' and a table (with a same name as that of database) with column names and datatypes similar to that of our Model's predicted outputs dataset. 
+Creating a database named 'predicted_outputs' and a table (same name as that of database) with column names and datatypes similar to that of our Model's predicted outputs dataset in MySQL workbench
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_1.png" />
 
@@ -53,9 +60,6 @@ Querying our 'predicted_outputs' table in MySql workbench
 
 Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for elaborate implementation.
 
-The new dataset for prediction can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_new_data.csv">here</a>
-
-Model's predicted output can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_predictions.csv">here</a>
 
 ## <b>Tableau: </b>
 
