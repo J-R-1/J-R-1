@@ -53,5 +53,15 @@ Querying our 'predicted_outputs' table in MySql workbench
 
 Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for elaborate implementation.
 
+The new dataset for prediction can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a>
+
+Model's predicted output can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a>
+
+## <b>Tableau: </b>
+
+In this section, we will analyse the <b>Predictions</b> made by our model based on 40 new observations using <b>Tableau</b>.
+
+the new dataset for prediction can be found 
+
 
 
