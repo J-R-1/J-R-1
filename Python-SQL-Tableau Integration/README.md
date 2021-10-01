@@ -23,7 +23,7 @@ The <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integ
 #### <b>Integration:</b>
 In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. We will use our <b>Absenteeism Module</b> to make a prediction on a new dataset. Using Python's <b>'pymysql'</b> package we will make a connection to our database in MySQL workbench to store our model's predicted outputs.
 
-Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
+Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
 
 The new dataset for prediction can be found <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_new_data.csv">here</a>
 
@@ -58,7 +58,7 @@ Querying our 'predicted_outputs' table in MySql workbench
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_2.png" />
 
-Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for elaborate implementation.
+Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for elaborate implementation.
 
 
 ## <b>Tableau: </b>
