@@ -1,4 +1,4 @@
-# <b>Python - SQL - Tableau Integration</b>
+# <b>Python - SQL - Tableau Integration </b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Integration_logo.png" />
 
@@ -9,7 +9,7 @@ In a business environment today, problems such as higher competitiveness, unachi
 
 This project focuses on <b>Python, SQL and Tableau Integration</b> as they are indespensible tools for many professionals. We will use Python for Data Preprocessing and Model Building, SQL for Quering and mending data and use Tableau for further analyses.
 
-## <b>Python:</b>
+## <b>Python: </b>
 
 #### <b>Data Preprocessing:</b> 
 This <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Preprocessing.ipynb">Notebook</a> elaborates the preprocessing of raw <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism-data.csv">Absenteeism</a> file. The steps include removing redundant features, creating dummy variables and grouping them based on their feature similarities, extracting meaning features from the existing feature,etc.. The cleaned data then saved in another <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_preprocessed_sql.csv">csv</a> file.
@@ -24,7 +24,7 @@ The <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integ
 In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
 
 ## <b>SQL</b>
--------------
+
 Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>. In this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebook to MySQL workbench to transfer our Model's predicted outputs on a new dataset. By storing our data in a more secure place, makes it easier to manipulate and extract useful information from the data at a later stage.
 
 The screenshot below shows the database named 'predicted_outputs' and a table (with a same name as that of database) with column names and datatypes similar to that of our Model's predicted outputs dataset. 
