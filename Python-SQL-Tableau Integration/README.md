@@ -85,6 +85,11 @@ Loading the <b>absenteeism prediction</b> file on <b>Tableau</b>:
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Reasons%20vs%20probability.png" />
 
 
+<b>Transportation expense and children vs Probability:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/ch_1.png" />
+
+
 
 
 
