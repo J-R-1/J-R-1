@@ -63,7 +63,13 @@ Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tablea
 
 ## <b>Tableau: </b>
 
-In this section, we will analyse the <b>Predictions</b> made by our model based on 40 new observations using <b>Tableau</b>.
+In this section, we will analyse the Predictions made by our model based on 40 new observations using <b>Tableau</b>.
+
+Loading the <b>absenteeism prediction</b> file on <b>Tableau</b>:
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/MySQL_2.png" />
+
+
 
 
 
