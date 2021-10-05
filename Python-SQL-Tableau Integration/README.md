@@ -70,6 +70,20 @@ Loading the <b>absenteeism prediction</b> file on <b>Tableau</b>:
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/absenteeism_csv.png" />
 
 
+<b>Age vs Probability:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/absenteeism_csv.png" />
+
+
+<b>Transportation expense vs Probability:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/absenteeism_csv.png" />
+
+
+<b>Reasons vs Probability:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/absenteeism_csv.png" />
+
 
 
 
