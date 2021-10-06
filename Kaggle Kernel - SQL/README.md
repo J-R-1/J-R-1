@@ -8,3 +8,9 @@
 <a href="https://www.kaggle.com/jkuser/exercise-group-by-having-count?scriptVersionId=76418667">GroupBy-Having-Count</a>
 
 
+<a href="https://www.kaggle.com/jkuser/exercise-order-by?scriptVersionId=76478437">OrderBy</a>
+
+
+<a href="https://www.kaggle.com/jkuser/exercise-group-by-having-count?scriptVersionId=76418667">GroupBy-Having-Count</a>
+
+
