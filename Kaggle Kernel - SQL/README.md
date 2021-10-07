@@ -13,4 +13,7 @@
 
 <a href="https://www.kaggle.com/jkuser/exercise-as-with?scriptVersionId=76482980">AS-With</a>
 
+<a href="https://www.kaggle.com/jkuser/exercise-joining-data?scriptVersionId=76576312">Joining Data</a>
+
+
 
