@@ -16,4 +16,7 @@
 <a href="https://www.kaggle.com/jkuser/exercise-joining-data?scriptVersionId=76576312">Joining Data</a>
 
 
+<a href="https://www.kaggle.com/jkuser/exercise-analytic-functions?scriptVersionId=76688181">Analytic functions</a>
+
+
 
