@@ -19,4 +19,8 @@
 <a href="https://www.kaggle.com/jkuser/exercise-analytic-functions?scriptVersionId=76688181">Analytic functions</a>
 
 
+<a href="https://www.kaggle.com/jkuser/exercise-nested-and-repeated-data?scriptVersionId=76788370">Nested and Repeated data</a>
+
+
+
 
