@@ -5,7 +5,15 @@
 <b>SQL</b> is an important skill for any data scientist. The preceeding <b>Kaggle</b> kernels demonstrats accessing and examining <b>BigQuery</b> datasets using <b>SQL</b> through a series of Question and Answer format.
 
 
-1. <a href="https://www.kaggle.com/jkuser/exercise-getting-started-with-sql-and-bigquery?scriptVersionId=76417541">Big query</a> - This kernel explains how to create a <b>client</b> object, accessing a dataset and it's tables using the <b>client</b> object, examining table schema and using Pandas <b>to_dataframe()</b> method to preview first few lines of the table. 
+1. <a href="https://www.kaggle.com/jkuser/exercise-getting-started-with-sql-and-bigquery?scriptVersionId=76417541">Big query</a> - This kernel explains how to create a <b>client</b> object, accessing a dataset and it's tables using the <b>client</b> object, examining table schema and using Pandas <b>to_dataframe()</b> method to preview first few lines of the table. We will use <b>Chicago_crime</b> dataset for analysis.
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_1.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_2.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_3.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_4.png" />
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-select-from-where?scriptVersionId=76409071">Select-From-Where</a>
