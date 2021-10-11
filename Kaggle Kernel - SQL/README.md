@@ -22,5 +22,8 @@
 <a href="https://www.kaggle.com/jkuser/exercise-nested-and-repeated-data?scriptVersionId=76788370">Nested and Repeated data</a>
 
 
+<a href="https://www.kaggle.com/jkuser/exercise-writing-efficient-queries?scriptVersionId=76832920">Efficient queries</a>
+
+
 
 
