@@ -21,7 +21,7 @@ For the Machine Learning part, We will use <b>Logistic Regression</b> to predict
 The <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_Module.py">Absenteeism Module</a> contains all of the above  preprocessing and machine learning steps in one clean <b>.py</b> file for reusability.
 
 #### <b>Integration:</b>
-In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. We will use our <b>Absenteeism Module</b> to make a prediction on a new dataset. Using Python's <b>'pymysql'</b> package we will make a connection to our database in MySQL workbench to store our model's predicted outputs.
+In this section we will explore the <b>Integration</b> part of <b>Python</b> and <b>MySQL Workbench</b>. We will use our <b>Absenteeism Module</b> to make a prediction on a new set of observation. Using Python's <b>'pymysql'</b> package we will make a connection to our database in MySQL workbench to store our model's predicted outputs.
 
 Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Python-SQL-Tableau%20Integration/Absenteeism_%20Integration.ipynb">Absenteeism Integration Notebook</a> for implementation.
 
