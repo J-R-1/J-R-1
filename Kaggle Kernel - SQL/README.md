@@ -1,6 +1,6 @@
 # <b>SQL and BigQuery</b>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/Screenshot%20(230).png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/Screenshot%20(230).png" align="middle" />
 
 <b>SQL</b> is an important skill for any data scientist. The preceeding <b>Kaggle</b> kernels demonstrats accessing and examining <b>BigQuery</b> datasets using <b>SQL</b> through a series of Question and Answer format.
 
