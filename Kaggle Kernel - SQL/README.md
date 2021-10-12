@@ -19,6 +19,18 @@
 
 2. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-select-from-where.ipynb">Select-From-Where</a> - This kernel demonstrates using the keywords SELECT, FROM, and WHERE to get data from specific columns based on conditions we specify. we will use the global_air_quality table from the openaq dataset for analysis.
 
+<b>Making a connection to the database:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/sw_1.png" />
+
+
+BigQuery datasets can be huge. It is a good practice to estimate the size of any query before running it. To see how much data a query will scan, we create a <b>QueryJobConfig</b> object and set the <b>dry_run</b> parameter to <b>True</b>. Alternatively we can specify a parameter when running the query to limit how much data we are willing to scan. The screenshot below shows that the query will be cancelled if it exceeds 10GB limit.
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/sw_2.png" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 
 <a href="https://www.kaggle.com/jkuser/exercise-group-by-having-count?scriptVersionId=76418667">GroupBy-Having-Count</a>
 
