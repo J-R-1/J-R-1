@@ -5,7 +5,7 @@
 ### <b> Introduction: </b>  
 --------------------------
   
-In a business environment today, problems such as higher competitiveness, unachievable business goals, elevated risk of unemployment can increase employees stress level which in time will become detrimental to his/her's health. In this project we will address Absenteeism at a company during normal working hours. Our goal is to explore whether an Employee presenting certain characteristics is expected to be away from work at some point of time or not. With this knowledge in hand, an Employer can reorganize the work process which will increase the quality of work in a firm.
+In a business environment today, problems such as higher competitiveness, unachievable business goals, elevated risk of unemployment can increase employees stress level which in time will become detrimental to his/her health. In this project we will address Absenteeism at a company during normal working hours. Our goal is to explore whether an Employee presenting certain characteristics is expected to be away from work at some point of time or not. With this knowledge in hand, an Employer can reorganize the work process which will increase the quality of work in a firm.
 
 This project focuses on <b>Python, SQL and Tableau Integration</b> as they are indespensible tools for many professionals. We will use Python for Data Preprocessing and Model Building, SQL for Quering and mending data and use Tableau for further analyses.
 
