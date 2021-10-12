@@ -14,8 +14,10 @@
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_4.png" />
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<a href="https://www.kaggle.com/jkuser/exercise-select-from-where?scriptVersionId=76409071">Select-From-Where</a>
+
+2. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-select-from-where.ipynb">Select-From-Where</a> - This kernel demonstrates using the keywords SELECT, FROM, and WHERE to get data from specific columns based on conditions we specify. we will use the global_air_quality table from the openaq dataset for analysis.
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-group-by-having-count?scriptVersionId=76418667">GroupBy-Having-Count</a>
