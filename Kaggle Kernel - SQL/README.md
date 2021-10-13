@@ -32,7 +32,7 @@ BigQuery datasets can be huge. It is a good practice to estimate the size of any
 
 
 
-3. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-group-by-having-count.ipynb">GroupBy-Having-Count</a> - In this kernel we will use  <b>hacker_news</b> dataset to demonstrate the usage of <b>GROUP BY, HAVING and COUNT()</b> keywords. The queries will be cancelled if it exceeds 10GB limit.
+3. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-group-by-having-count.ipynb">GroupBy-Having-Count</a> - In this kernel we will use <b>comments</b> table from the <b>hacker_news</b> dataset to demonstrate the usage of <b>GROUP BY, HAVING and COUNT()</b> keywords. The queries will be cancelled if it exceeds 10GB limit.
 
 <b>Making a connection to the database and the comments table:</b>
 
@@ -51,7 +51,25 @@ BigQuery datasets can be huge. It is a good practice to estimate the size of any
 
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-order-by?scriptVersionId=76478437">OrderBy</a>
+3. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-order-by.ipynb">OrderBy</a> - This kernel demonstrates how to change the order of query results using the <b>ORDER BY</b> clause. We will use <b>international_education</b> table from the <b>world_bank_intl_education</b> dataset.
+
+<b>Making a connection to the database and the international_education table:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_3.png" />
+
+<b>Query 1: Selecting prolific commenters and their post counts</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_1.png" />
+
+<b>Query 2: Number of deleted comments</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_2.png" />
+
+<b>Query 2: Number of deleted comments</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_2.png" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-as-with?scriptVersionId=76482980">AS-With</a>
