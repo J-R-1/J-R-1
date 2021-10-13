@@ -32,11 +32,21 @@ BigQuery datasets can be huge. It is a good practice to estimate the size of any
 
 
 
-3. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-group-by-having-count.ipynb">GroupBy-Having-Count</a> - In this kernel we will use  <b>hacker_news</b> dataset to demonstrate the usage of <b>GROUP BY, HAVING and COUNT()</b> keywords. The query will be cancelled if it exceeds 10GB limit.
+3. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-group-by-having-count.ipynb">GroupBy-Having-Count</a> - In this kernel we will use  <b>hacker_news</b> dataset to demonstrate the usage of <b>GROUP BY, HAVING and COUNT()</b> keywords. The queries will be cancelled if it exceeds 10GB limit.
 
-<b>Making a connection to the database:</b>
+<b>Making a connection to the database and the comments table:</b>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/sw_1.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_3.png" />
+
+<b>Query 1: Selecting prolific commenters and their post counts</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_1.png" />
+
+<b>Query 2: Number of deleted comments</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_2.png" />
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 
