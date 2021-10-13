@@ -72,7 +72,40 @@ BigQuery datasets can be huge. It is a good practice to estimate the size of any
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-as-with?scriptVersionId=76482980">AS-With</a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-as-with.ipynb"><b>AS-With:</b></a>
+
+This kernel explains the usage of <b>Common Table Expression</b>.  A <b>Common Table Expression (or CTE)</b> is a temporary table that we return within our query. CTEs are helpful for splitting our queries into readable chunks, and we can write queries against them. We will use <b>taxi_trips</b> table from the <b>chicago_taxi_trips</b> dataset for analysis. As always we will limit our data usage to 10GB.
+
+<b>Making a connection to the database:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_1.png" />
+
+
+<b>let's take a peek at taxi_trips table</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_2.png" />
+
+
+<b>Query 1: Number of trips in each year</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_3.png" />
+
+
+<b>Query 2: For the year 2017, Number of trips per month</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_4.png" />
+
+
+<b>Query 3: Number of trips and Average speed for each Hour of the day between 2017-01-01 and 2017-07-01</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_5.png" />
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   
+
+
+
+
 
 <a href="https://www.kaggle.com/jkuser/exercise-joining-data?scriptVersionId=76576312">Joining Data</a>
 
