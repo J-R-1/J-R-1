@@ -46,28 +46,28 @@ BigQuery datasets can be huge. It is a good practice to estimate the size of any
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_2.png" />
 
+
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-
-
-3. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-order-by.ipynb">OrderBy</a> - This kernel demonstrates how to change the order of query results using the <b>ORDER BY</b> clause. We will use <b>international_education</b> table from the <b>world_bank_intl_education</b> dataset.
+4. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-order-by.ipynb">OrderBy</a> - This kernel demonstrates how to change the order of query results using the <b>ORDER BY</b> clause. We will use <b>international_education</b> table from the <b>world_bank_intl_education</b> dataset.
 
 <b>Making a connection to the database and the international_education table:</b>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_3.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ob_1.png" />
 
-<b>Query 1: Selecting prolific commenters and their post counts</b>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_1.png" />
+<b>Query 1: Which country spent the largest fraction of GDP on education between the years 2010-2017</b>
 
-<b>Query 2: Number of deleted comments</b>
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ob_2.png" />
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_2.png" />
 
-<b>Query 2: Number of deleted comments</b>
+<b>Query 2: For the year 2016, select the indicator code and indicator name for all codes with at least 175 rows</b>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/GH_2.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ob_3.png" />
+
+
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
