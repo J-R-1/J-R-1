@@ -140,7 +140,31 @@ This kernel demonstrates combining data sources using <b>Join</b> clauses which 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-joins-and-unions?scriptVersionId=76850549">Joins and Unions</a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-joins-and-unions.ipynb"><b>Joins and Unions:</b></a>
+
+This kernel is an extension of the previous kernel. Here, we will explore few more types of <b>JOIN</b>, along with how to use <b>UNIONs</b> to pull information from multiple tables. We will use the same <b>posts_questions</b> and <b>posts_answers</b> tables from the stackoverflow dataset for analysis.
+
+
+<b>Query 1: How long does it take for questions to receive answers?. For simplicity we restrict the results only to January 2018. </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ju_1.png" />
+
+
+
+<b>Query 2: Returns all users who created Stack Overflow accounts along with when did they post their first questions and answers. For simplicity we restrict the results only to  January 2019. We'll also need to use the 'users' table from the Stack Overflow dataset to answer this query </b>.
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ju_2.png" />
+
+
+
+<b>Query 3: Returns a single row for each user who answered at least one question with a tag that includes the string "bigquery" </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_7.png" />
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-analytic-functions?scriptVersionId=76688181">Analytic functions</a>
