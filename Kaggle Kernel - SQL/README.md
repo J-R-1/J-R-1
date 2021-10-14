@@ -101,13 +101,43 @@ This kernel explains the usage of <b>Common Table Expression</b>.  A <b>Common T
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_5.png" />
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-   
+
+
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-joining-data.ipynb"><b>Joining Data:</b></a>
+
+This kernel demonstrates combining data sources using <b>Join</b> clauses which is critical for almost all real-world data problems. We will use stackoverflow dataset for analysis. 
+
+<b>Making a connection to the database:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_1.png" />
+
+
+<b>Lets take a look at the relevent tables</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_3.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_4.png" />
 
 
 
+<b>Query 1: Select the rows from the posts_questions table where the 'tags' column contains other text in addition to the word "bigquery" </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_5.png" />
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-joining-data?scriptVersionId=76576312">Joining Data</a>
+
+<b>Query 2: Returns the id, body and owner_user_id columns from the posts_answers table for answers to "bigquery"-related questions </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_6.png" />
+
+
+
+<b>Query 3: Returns a single row for each user who answered at least one question with a tag that includes the string "bigquery" </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_7.png" />
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-joins-and-unions?scriptVersionId=76850549">Joins and Unions</a>
