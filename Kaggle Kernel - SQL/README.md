@@ -157,11 +157,9 @@ This kernel is an extension of the previous kernel. Here, we will explore few mo
 
 
 
-<b>Query 3: Returns a single row for each user who answered at least one question with a tag that includes the string "bigquery" </b>
+<b>Query 3: Returns all users who posted at least one question or answer on January 1, 2019 </b>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/j_7.png" />
-
-
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ju_3.png" />
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
