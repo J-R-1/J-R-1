@@ -165,7 +165,31 @@ This kernel is an extension of the previous kernel. Here, we will explore few mo
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-analytic-functions?scriptVersionId=76688181">Analytic functions</a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-analytic-functions.ipynb"><b>Analytic functions:</b></a>
+
+This kernel demonstrates unlike <b>Aggregate functions</b>, how <b>Analytic functions</b> return a (potentially different) value for each row in the original table. We will use <b>taxi_trips</b> table from the <b>chicago_taxi_trips</b> dataset for analysis.
+
+<b>Query 1: Returns a rolling average of the daily number of taxi trips from January 1, 2016, to December 31, 2017 </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/af_1.png" />
+
+
+
+<b>Query 2: Returns the order in which the trips were taken from the respective community areas on '2017-05-01'</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/af_2.png" />
+
+
+
+<b>Query 3: Returns the length of the break (in minutes) that the driver had before each trip started on '2017-05-01'</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/af_3.png" />
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-nested-and-repeated-data?scriptVersionId=76788370">Nested and Repeated data</a>
