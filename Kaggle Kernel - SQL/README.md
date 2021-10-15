@@ -192,7 +192,11 @@ This kernel demonstrates unlike <b>Aggregate functions</b>, how <b>Analytic func
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-nested-and-repeated-data?scriptVersionId=76788370">Nested and Repeated data</a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-nested-and-repeated-data.ipynb"><b>Nested and Repeated data:</b></a>
+
+This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most complex data types in <b>BigQuery</b> datasets.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
 <a href="https://www.kaggle.com/jkuser/exercise-writing-efficient-queries?scriptVersionId=76832920">Efficient queries</a>
