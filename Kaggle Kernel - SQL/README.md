@@ -194,7 +194,43 @@ This kernel demonstrates unlike <b>Aggregate functions</b>, how <b>Analytic func
 
 ### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-nested-and-repeated-data.ipynb"><b>Nested and Repeated data:</b></a>
 
-This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most complex data types in <b>BigQuery</b> datasets.
+This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most complex data types in <b>BigQuery</b> datasets. We will use <b>sample_commits</b> and <b>languages</b> tables from the <b>github_repos</b> dataset for analysis.
+
+
+<b>Making a connection to the database:</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/nr_1.png" />
+
+
+
+<b>Lets take a look at 'languages' table</b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/nr_3.png" />
+
+
+
+
+<b>Query 1: Returns the individuals with the most commits from the 'sample_commits' table in 2016 </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/nr_2.png" />
+
+
+
+
+<b>Query 2: Returns the programming languages which appear in the most repositories from the 'languages' table </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/nr_4.png" />
+
+
+
+
+<b>Query 3: Returns the Ordered table by the Most used programming languages from the 'polyrabbit/polyglot' repo  </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/nr_5.png" />
+
+
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
