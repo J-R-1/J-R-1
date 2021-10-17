@@ -235,7 +235,11 @@ This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-<a href="https://www.kaggle.com/jkuser/exercise-writing-efficient-queries?scriptVersionId=76832920">Efficient queries</a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-writing-efficient-queries.ipynb"><b>Efficient queries:</b></a>
+
+This kernel demonstrates how to write queries <b>efficiently</b>. We will use two tables
+
+
 
 
 
