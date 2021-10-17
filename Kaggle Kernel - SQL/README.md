@@ -28,14 +28,18 @@ We will use <b>chicago_crime</b> dataset for analysis.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-2. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-select-from-where.ipynb">Select-From-Where</a> - This kernel demonstrates using the keywords SELECT, FROM, and WHERE to get data from specific columns based on conditions we specify. we will use the global_air_quality table from the openaq dataset for analysis.
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-select-from-where.ipynb">Select-From-Where</a> 
+
+This kernel demonstrates how to use the keywords <b>SELECT</b>, <b>FROM</b>, and <b>WHERE</b> to get data from specific columns based on conditions we specify. We will use <b>global_air_quality</b> table from the <b>openaq</b> dataset for analysis.
 
 <b>Making a connection to the database:</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/sw_1.png" />
 
 
-BigQuery datasets can be huge. It is a good practice to estimate the size of any query before running it. To see how much data a query will scan, we create a <b>QueryJobConfig</b> object and set the <b>dry_run</b> parameter to <b>True</b>. Alternatively we can specify a parameter when running the query to limit how much data we are willing to scan. The screenshot below shows that the query will be cancelled if it exceeds 10GB limit.
+
+<b>BigQuery</b> datasets can be huge. It is a good practice to estimate the size of any query before running it. To see how much data a query will scan, we create a <b>QueryJobConfig</b> object and set the <b>dry_run</b> parameter to <b>True</b>. Alternatively we can specify a parameter when running the query to limit how much data we are willing to scan. The screenshot below shows that the query will be cancelled if it exceeds <b>10GB</b> limit.
+
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/sw_2.png" />
 
