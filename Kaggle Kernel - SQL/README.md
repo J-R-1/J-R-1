@@ -73,9 +73,11 @@ In this kernel we will use <b>comments</b> table from the <b>hacker_news</b> dat
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-4. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-order-by.ipynb">OrderBy</a> - This kernel demonstrates how to change the order of query results using the <b>ORDER BY</b> clause. We will use <b>international_education</b> table from the <b>world_bank_intl_education</b> dataset.
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-order-by.ipynb">OrderBy</a> 
 
-<b>Making a connection to the database and the international_education table:</b>
+This kernel demonstrates how to change the order of query results using the <b>ORDER BY</b> clause. We will use <b>international_education</b> table from the <b>world_bank_intl_education</b> dataset for analysis.
+
+<b>Making a connection to the database and the 'international_education' table:</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ob_1.png" />
 
