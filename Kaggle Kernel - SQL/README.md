@@ -1,16 +1,27 @@
 # <b>SQL and BigQuery</b> 
 
 
-<b>SQL</b> is an important skill for any data scientist. The preceeding <b>Kaggle</b> kernels demonstrats accessing and examining <b>BigQuery</b> datasets using <b>SQL</b> through a series of Question and Answer format.
+<b>SQL</b> is an important skill for any data scientist. The following <b>Kaggle</b> kernels demonstrats accessing and examining <b>BigQuery</b> datasets using <b>SQL</b> through a series of Question and Answer format.
 
 
-1. <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-getting-started-with-sql-and-bigquery%20(2).ipynb">Big query</a> - This kernel explains how to create a <b>client</b> object, accessing a dataset and it's tables using the <b>client</b> object, examining table schema and using Pandas <b>to_dataframe()</b> method to preview first few lines of the table. We will use <b>Chicago_crime</b> dataset for analysis.
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-getting-started-with-sql-and-bigquery%20(2).ipynb">Big query:</a> 
+
+This kernel explains how to create a <b>client</b> object, accessing a dataset and it's tables using the newly created <b>client</b> object, examining the table schema and using Pandas <b>to_dataframe()</b> method to preview first few lines of the table. 
+
+We will use <b>chicago_crime</b> dataset for analysis.
+
+
+<b> Creating the client object and fetching the dataset</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_1.png" />
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_2.png" />
+
+<b> Making a reference to the 'crime' table and checking its schema</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_3.png" />
+
+
+<b> Lets take a look at the table data</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/BQ_4.png" />
 
