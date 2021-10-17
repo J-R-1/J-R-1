@@ -96,16 +96,16 @@ This kernel demonstrates how to change the order of query results using the <b>O
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-as-with.ipynb"><b>AS-With:</b></a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-as-with.ipynb"><b>AS-With</b></a>
 
-This kernel explains the usage of <b>Common Table Expression</b>.  A <b>Common Table Expression (or CTE)</b> is a temporary table that we return within our query. CTEs are helpful for splitting our queries into readable chunks, and we can write queries against them. We will use <b>taxi_trips</b> table from the <b>chicago_taxi_trips</b> dataset for analysis. As always we will limit our data usage to 10GB.
+This kernel explains the usage of <b>Common Table Expression</b>.  A <b>Common Table Expression (or CTE)</b> is a temporary table that we return within our query. CTEs are helpful for splitting our queries into readable chunks, and we can write queries against them. We will use <b>taxi_trips</b> table from the <b>chicago_taxi_trips</b> dataset for analysis. As always, we will limit our data usage to 10GB.
 
 <b>Making a connection to the database:</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_1.png" />
 
 
-<b>let's take a peek at taxi_trips table</b>
+<b>let's take a peek at 'taxi_trips' table</b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/aw_2.png" />
 
