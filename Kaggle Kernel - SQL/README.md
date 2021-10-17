@@ -237,7 +237,21 @@ This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most 
 
 ### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-writing-efficient-queries.ipynb"><b>Efficient queries:</b></a>
 
-This kernel demonstrates how to write queries <b>efficiently</b>. We will use two tables
+This kernel demonstrates how to write queries <b>efficiently</b>. We will use <b>CostumeLocations</b> and <b>CostumeOwners</b> tables for the analysis.
+
+
+<b>lets take a look at the tables:  </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/eq_1.png" />
+
+
+
+<b>Query : Returns the most recent location for all pet costumes owned by a given human </b>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/eq_2.png" />
+
+
+
 
 
 
