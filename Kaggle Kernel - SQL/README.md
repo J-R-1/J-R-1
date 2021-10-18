@@ -166,7 +166,7 @@ This kernel demonstrates combining data sources using <b>Join</b> clauses which 
 
 ### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-joins-and-unions.ipynb"><b>Joins and Unions</b></a>
 
-This kernel is an extension of the previous kernel. Here, we will explore few more types of <b>JOINs</b>, along with how to use <b>UNIONs</b> to pull information from multiple tables. We will use the same <b>posts_questions</b> and <b>posts_answers</b> tables from the <b>stackoverflow</b> dataset for analysis.
+This kernel is an extension of the previous kernel. Here, we will explore few more types of <b>JOINs</b>, and <b>UNIONs</b> to pull information from multiple tables. We will use the same <b>posts_questions</b> and <b>posts_answers</b> tables from the <b>stackoverflow</b> dataset for analysis.
 
 
 
@@ -176,7 +176,7 @@ This kernel is an extension of the previous kernel. Here, we will explore few mo
 
 
 
-<b>Query 2: Returns all users who created Stack Overflow accounts along with when did they post their first questions and answers. For simplicity we restrict our results only to  January 2019. We'll also need to use the 'users' table from the Stack Overflow dataset to answer this query. </b>.
+<b>Query 2: Returns all users who created Stack Overflow accounts along with when did they post their first questions and answers. For simplicity, we restrict our results only to  January 2019. We'll also need to use the <b>'users'</b> table from the Stack Overflow dataset to answer this query. </b>.
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/ju_2.png" />
 
