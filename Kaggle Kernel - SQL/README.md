@@ -215,7 +215,7 @@ This kernel demonstrates unlike <b>Aggregate functions</b>, how <b>Analytic func
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-nested-and-repeated-data.ipynb"><b>Nested and Repeated data:</b></a>
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-nested-and-repeated-data.ipynb"><b>Nested and Repeated data</b></a>
 
 This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most complex data types in <b>BigQuery</b> datasets. We will use <b>sample_commits</b> and <b>languages</b> tables from the <b>github_repos</b> dataset for analysis.
 
@@ -247,11 +247,9 @@ This kernel demonstrates how to query <b>Nested and Repeated data</b>, the most 
 
 
 
-<b>Query 3: Returns the Ordered table by the Most used programming languages from the 'polyrabbit/polyglot' repo  </b>
+<b>Query 3: Returns the Ordered table by the Most Used programming languages from the 'polyrabbit/polyglot' repo  </b>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/nr_5.png" />
-
-
 
 
 
