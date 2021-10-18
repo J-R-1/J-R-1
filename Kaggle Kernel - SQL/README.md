@@ -4,7 +4,7 @@
 <b>SQL</b> is an important skill for any data scientist. The following <b>Kaggle</b> kernels demonstrats accessing and examining <b>BigQuery</b> datasets using <b>SQL</b> through a series of Question and Answer format.
 
 
-### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-getting-started-with-sql-and-bigquery%20(2).ipynb">Big query:</a> 
+### <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernel%20-%20SQL/exercise-getting-started-with-sql-and-bigquery%20(2).ipynb">Big query</a> 
 
 This kernel explains how to create a <b>client</b> object, accessing a dataset and it's tables using the newly created <b>client</b> object, examining the table schema and using Pandas <b>to_dataframe()</b> method to preview first few lines of the table. 
 
