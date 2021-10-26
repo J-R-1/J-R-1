@@ -32,7 +32,7 @@ Model's predicted output can be found <a href="https://github.com/J-R-1/J-R-1/bl
 
 ## <b>SQL</b>
 
-Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>. In this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebook to MySQL workbench. By storing our data in a more secure place, makes it easier to manipulate and extract useful information from the data at a later stage.
+Though there are multiple ways to connect <b>Python</b> to <b>SQL</b>, in this project we will use Python's <b>'pymysql'</b> package to connect our Jupyter notebook to MySQL workbench. By storing our data in a more secure place, makes it easier to manipulate and extract useful information from the data at a later stage.
 
 Creating a database named 'predicted_outputs' and a table (same name as that of database) with column names and datatypes similar to that of our Model's predicted outputs dataset in MySQL workbench
 
