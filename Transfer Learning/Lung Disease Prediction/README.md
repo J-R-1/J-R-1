@@ -51,8 +51,3 @@ This project is divided into two major parts.<br/>
 2. Building and hosting a <b>Streamlit</b> web app using <b>Spyder</b> IDE that shows the prediction of these models given an image file.
 <hr/>
 
-THoughts about Improvements:
-
-
-
-
