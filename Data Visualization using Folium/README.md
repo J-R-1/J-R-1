@@ -13,6 +13,7 @@ Folium has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen,
 
 ## Data Source:
 
-1. San Francisco Police Department Incidents for the year 2016 (.csv file)
+1. San Francisco Police Department Incidents for the year 2016 - Incidents derived from San Francisco Police Department (SFPD) Crime Incident Reporting system. Updated daily, showing data for the entire year of 2016. Address and location has been anonymized by moving to mid-block or to an intersection.
 
-2. The respondents' interest in the different data science topics (.csv file)
+2. The respondents' interest in the different data science topics surveyed
+
