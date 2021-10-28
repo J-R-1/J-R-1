@@ -66,6 +66,6 @@ One of the most important tasks for someone working on datasets with countries, 
 #### As per our Choropleth map legend, the darker the color and the closer the color to red, the higher the number of Crimes from that Neighbourhood.
 
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_choropleth.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_choro.png" />
 
 
