@@ -23,13 +23,25 @@ One of the most important tasks for someone working on datasets with countries, 
 
 </hr>
 
-## Application Demo:
+## Application Demo using Folium:
+
+#### Creating a map of Mexico with a zoom level of 4
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_mex.png" />
 
+</hr>
+
+#### Creating a Stamen Terrain map of Canada with zoom level 4
+
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_canada.png" />
 
+</hr>
+
+#### Using San Francisco police department incidents from 2016 dataset, lets visualize where these crimes took place in the city of San Francisco. A pop-up text that would get displayed when we hover over a marker
+
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_popup.png" />
+
+</hr>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_cm.png" />
 
