@@ -25,4 +25,18 @@ One of the most important tasks for someone working on datasets with countries, 
 
 ## Application Demo:
 
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_mex.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_canada.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_popup.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_cm.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_cluster.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_ds.png" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_choropleth.png" />
+
 
