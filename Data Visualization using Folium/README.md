@@ -25,29 +25,46 @@ One of the most important tasks for someone working on datasets with countries, 
 
 ## Application Demo using Folium:
 
-#### Creating a map of Mexico with a zoom level of 4
+#### Creating a map of Mexico with a zoom level of 4.
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_mex.png" />
 
 </hr>
 
-#### Creating a Stamen Terrain map of Canada with zoom level 4
+#### Creating a Stamen Terrain map of Canada with zoom level 4.
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_canada.png" />
 
 </hr>
 
-#### Using San Francisco police department incidents from 2016 dataset, lets visualize where these crimes took place in the city of San Francisco. A pop-up text that would get displayed when we hover over a marker
+#### Using San Francisco police department incidents from 2016 dataset, lets visualize where these crimes took place in the city of San Francisco. A pop-up text that would get displayed when we hover over a marker.
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_popup.png" />
 
 </hr>
 
+####  Adding the text to the circle markers for much cleaner display.
+
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_cm.png" />
+
+</hr>
+
+#### Grouping the markers into different clusters. Each cluster is then represented by the number of crimes in each neighborhood.
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_cluster.png" />
 
+</hr>
+
+#### Using the artist layer of Matplotlib, lets visualize the percentage of the respondents' interest in the different data science topics surveyed
+
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sc_ds.png" />
+
+</hr>
+
+#### Using 'Choropleth' map, lets convert the San Francisco dataset to represent the total number of crimes in each neighborhood. A 'Choropleth map' is a thematic map in which areas are shaded or patterned in proportion to the measurement of the statistical variable being displayed on the map. The choropleth map provides an easy way to visualize how a measurement varies across a geographic area or it shows the level of variability within a region.
+
+#### As per our Choropleth map legend, the darker the color and the closer the color to red, the higher the number of Crimes from that Neighbourhood.
+
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_choropleth.png" />
 
