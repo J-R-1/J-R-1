@@ -68,4 +68,8 @@ One of the most important tasks for someone working on datasets with countries, 
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/sf_choro.png" />
 
+</hr>
+
+For a complete implementation of this project, Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Data%20Visualization%20using%20Folium/Data_Visualization.ipynb">notebook</a>.
+
 
