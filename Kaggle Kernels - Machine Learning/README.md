@@ -21,13 +21,23 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
 
 ### <a id='First_ML_Model'>Building a Machine Learning Model:</a>
 
+
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a> demonstrates the basics of building a machine learning model and make predictions using it.  We will use <b>DecisionTreeRegressor</b> from the <b>scikit-learn</b> library to create our model. Many machine learning models allow some randomness in model training. Specifying a number for random_state ensures we get the same results in each run.
 <br>
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/ml_pic.png" align='left' />
+<br>
+Read the data using <b>Pandas read_csv() method and store data in dataFrame named 'home_data':
+  
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mb_1.png' />
+  
+  
+Specifing the model:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mb_1.png' />        
 
 
+Making Prediction using our model:
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/ml_pic.png" align='left' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mb_2.png' />
 
 
 ### <a id='Model_validation'>Model Validation</a>
