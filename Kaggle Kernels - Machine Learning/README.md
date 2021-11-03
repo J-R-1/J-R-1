@@ -11,3 +11,22 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
 
 </br>
 </br>
+
+<ol>
+  
+  <li><a href='#First_ML_Model'>Building a Machine Learning Model</a></li>
+  <li><a href='#Model_validation'>Model Validation</a></li>
+</ol >
+</br>
+</br>
+<a id='First_ML_Model'>Building a Machine Learning Model:</a>
+
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a>
+</br>
+</br>
+</br>
+<a id='Model_validation'>Model Validation</a>
+
+
+
+
