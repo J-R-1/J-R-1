@@ -16,16 +16,28 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
   
   <li><a href='#First_ML_Model'>Building a Machine Learning Model</a></li>
   <li><a href='#Model_validation'>Model Validation</a></li>
+  <li><a href='#Underfitting_Overfitting'>Underfitting Overfitting</a></li>
+  <li><a href='#Random_Forests'>Random Forests</a></li>
+  
 </ol >
 </br>
 </br>
 <a id='First_ML_Model'>Building a Machine Learning Model:</a>
 
-<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a>
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a> shows
 </br>
 </br>
 </br>
 <a id='Model_validation'>Model Validation</a>
+
+</br>
+</br>
+<a id='Underfitting_Overfitting'>Underfitting Overfitting</a>
+
+</br>
+</br>
+<a id='Random_Forests'>Random Forests</a>
+
 
 
 
