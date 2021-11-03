@@ -20,14 +20,15 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
 </ol >
 
 ### <a id='First_ML_Model'>Building a Machine Learning Model:</a>
+-----------------------------------------------------------------
 
 
-<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a> demonstrates the basics of building a machine learning model and make predictions using it.  We will use <b>DecisionTreeRegressor</b> from the <b>scikit-learn</b> library to create our model. Many machine learning models allow some randomness in model training. Specifying a number for random_state ensures we get the same results in each run.
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a> demonstrates the basics of building a machine learning model and make predictions using it.  We will use <b>DecisionTreeRegressor</b> from the <b>scikit-learn</b> library to create our model. Many machine learning models allow some randomness in model training. Specifying a number for random_state ensures we get the same results in each run. We will work with the dataset which has home prices in <b>Iowa</b>.
 <br>
 <br>
-Read the data using <b>Pandas read_csv() method and store data in dataFrame named 'home_data':
+Read the data using <b>Pandas read_csv()</b> method and store data in dataFrame named <b>'home_data'</b>:
   
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mb_1.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mb_3.png' />
   
   
 Specifing the model:
@@ -41,6 +42,7 @@ Making Prediction using our model:
 
 
 ### <a id='Model_validation'>Model Validation</a>
+---------------------------------------------------
 
 </br>
 </br>
