@@ -1,2 +1,4 @@
+# **Machine Learning**
 
-<img src="https://media2.giphy.com/media/3ov9k06VQ0SU6f15rW/giphy.gif?cid=790b76114e7ed87fe72e540b6641f7c468c4ecb1693f9d7a&rid=giphy.gif&ct=g" />
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/ml_pic.png" />
