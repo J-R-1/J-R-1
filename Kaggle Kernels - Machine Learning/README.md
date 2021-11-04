@@ -14,7 +14,7 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
   
   <li><a href='#First_ML_Model'>Building a Machine Learning Model</a></li>
   <li><a href='#Model_validation'>Model Validation</a></li>
-  <li><a href='#Underfitting_Overfitting'>Underfitting Overfitting</a></li>
+  <li><a href='#Underfitting_Overfitting'>Underfitting - Overfitting</a></li>
   <li><a href='#Random_Forests'>Random Forests</a></li>
   
 </ol >
@@ -70,10 +70,10 @@ Calculating <b>'Mean_Absolute_Error'</b> on the validation data:
 <br>
 
 
+### <a id='Underfitting_Overfitting'>Underfitting - Overfitting</a>
+-------------------------------------------------------------------
 
-<br>
-<br>
-<a id='Underfitting_Overfitting'>Underfitting Overfitting</a>
+
 
 </br>
 </br>
