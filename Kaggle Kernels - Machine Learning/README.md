@@ -73,6 +73,13 @@ Calculating <b>'Mean_Absolute_Error'</b> on the validation data:
 ### <a id='Underfitting_Overfitting'>Underfitting - Overfitting</a>
 -------------------------------------------------------------------
 
+<b>Overfitting</b> -  Where a model matches the training data almost perfectly, but does poorly in validation and other new data.
+
+<b>Underfitting</b> - When a model fails to capture important distinctions and patterns in the data, so it performs poorly even in training data.
+<br>
+
+Since we are using <b>DecisionTreeRegressor</b> to <b>fit</b> our model, <b>max_leaf_nodes</b> argument provides a very sensible way to control Overfitting vs Underfitting by controlling the <b>tree depth</b>. <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-underfitting-and-overfitting.ipynb'>This Kernel</a> demonstrates how we can compare the accuracy of models (using <b>MAE scores</b>) built with different values for <b>max_leaf_nodes</b>.
+
 
 
 </br>
