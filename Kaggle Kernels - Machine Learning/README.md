@@ -49,6 +49,27 @@ In this <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%2
 We will use <b>train_test_split</b> function from the <b>scikit-learn</b> library to break up the data into two pieces. We'll use some of that data as <b>training data</b> to fit the model, and we'll use the other data as <b>validation data</b> to calculate <b>'Mean_Absolute_Error'</b> which is our metric for measuring model quality.
 
 
+Splitting the dataset into <b>train and validation</b> data:
+<br>
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mv_1.png' />
+<br>
+
+Fitting the model:
+<br>
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mv_2.png' />
+<br>
+
+Prediction using <b>validation</b> data:
+<br>
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mv_3.png' />
+<br>
+
+Calculating <b>'Mean_Absolute_Error'</b> on the validation data:
+<br>
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mv_4.png' />
+<br>
+
+
 
 <br>
 <br>
