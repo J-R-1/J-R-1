@@ -99,9 +99,14 @@ Using the Best tree size, fitting the model with all data:
 
 
 
-</br>
-</br>
-<a id='Random_Forests'>Random Forests</a>
+### <a id='Random_Forests'>Random Forests</a>
+----------------------------------------------
+
+The <b>Random forest</b> uses many <b>Decision trees</b>, and it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters.
+
+To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> class from the <b>scikit-learn</b> library.
+
+
 
 
 
