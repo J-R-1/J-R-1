@@ -107,6 +107,16 @@ The <b>Random forest</b> uses many <b>Decision trees</b>, and it makes a predict
 To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> class from the <b>scikit-learn</b> library.
 
 
+<b>Validation MAE</b> when using <b>Decision Tree</b> model:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_1.png' />
+
+
+<b>Validation MAE</b> when using <b>Random Forest</b> model:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_2.png' />
+
+
 
 
 
