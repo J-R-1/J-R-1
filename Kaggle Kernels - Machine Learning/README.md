@@ -16,6 +16,12 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
   <li><a href='#Model_validation'>Model Validation</a></li>
   <li><a href='#Underfitting_Overfitting'>Underfitting - Overfitting</a></li>
   <li><a href='#Random_Forests'>Random Forests</a></li>
+  <li><a href='#Missing_Values'>Missing Values</a></li>
+  <li><a href='#Categorical_Variables'>Categorical Variables</a></li>
+  <li><a href='#Pipelines'>Pipelines</a></li>
+  <li><a href='#Cross_Validation'>Cross-Validation</a></li>
+  <li><a href='#XGBoost'>XGBoost</a></li>
+  <li><a href='#Data_Leakage'>Data Leakage</a></li>
   
 </ol >
 
@@ -115,6 +121,40 @@ To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> 
 <b>Validation MAE</b> when using <b>Random Forest</b> model:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_2.png' />
+
+
+
+### <a id='Missing_Values'>Missing Values</a>
+-----------------------------------------------------------------
+
+
+
+
+### <a id='Categorical_Variables'>Categorical Variables</a>
+-----------------------------------------------------------------
+
+
+
+
+### <a id='Pipelines'>Pipelines</a>
+-----------------------------------------------------------------
+
+
+
+
+### <a id='Cross_Validation'>Cross-Validation</a>
+-----------------------------------------------------------------
+
+
+
+
+### <a id='XGBoost'>XGBoost</a>
+-----------------------------------------------------------------
+
+
+
+### <a id='Data_Leakage'>Data Leakage</a>
+-----------------------------------------------------------------
 
 
 
