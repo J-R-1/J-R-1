@@ -127,13 +127,21 @@ To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> 
 ### <a id='Missing_Values'>Missing Values</a>
 -----------------------------------------------------------------
 
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-missing-values.ipynb'>This Kernel</a> demonstrates how to deal with <b>Missing Values</b> using <b>SimpleImputer</b> class from <b>sklearn</b> library. The <b>SimpleImputer</b> class provides basic strategies for imputing missing values. Missing values can be imputed with a provided <b>constant</b> value, or using the statistics (<b>mean, median or most frequent</b>) of each column in which the missing values are located.
+
+
+Number of <b>Missing Values</b> in the <b>training</b> dataset:
+
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_1.png' />
+
+
+<b>Imputing</b> missing values with the <b>mean</b> value along each column of training and validation datasets: 
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_2.png' />
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_3.png' />
+Fit and Evaluate a <b>Random Forest</b> model using Imputed (train and validation) datasets:
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_4.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_3.png' />
 
 
 
