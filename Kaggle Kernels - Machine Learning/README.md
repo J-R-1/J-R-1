@@ -127,13 +127,13 @@ To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> 
 ### <a id='Missing_Values'>Missing Values</a>
 -----------------------------------------------------------------
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_2.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_1.png' />
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_2.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_2.png' />
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_2.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_3.png' />
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/rf_2.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_4.png' />
 
 
 
