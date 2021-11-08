@@ -139,7 +139,7 @@ Number of <b>Missing Values</b> in the <b>training</b> dataset:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_2.png' />
 
-Fit and Evaluate a <b>Random Forest</b> model using Imputed (train and validation) datasets:
+Train and Evaluate a <b>Random Forest</b> model using Imputed datasets:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_3.png' />
 
