@@ -151,12 +151,33 @@ Train and Evaluate a <b>Random Forest</b> model using Imputed datasets:
 
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-categorical-variables.ipynb'>This Kernel</a> demonstrates how to handle <b>Categorical Variables</b> using <b>Label encoding</b> and with <b>One-Hot encoding</b>.
 
-<b>Label encoding</b>: Fitting a label encoder to a column in the training data creates a corresponding integer-valued label for each unique value that appears in the training data. In the case that the validation data contains values that don't appear in the training data, the encoder will throw an error, because these values won't have an integer assigned to them. There are many approaches to fixing this issue like writing a custom label encoder to deal with new categories but for now we will drop the problematic categorical columns.
+<b>Label encoding</b>: Fitting a label encoder to a column in the training data creates a corresponding integer-valued label for each unique value that appears in the training data. In the case that the validation data contains values that don't appear in the training data, the encoder will throw an error, because these values won't have an integer assigned to them. There are many approaches to fixing this issue like writing a custom label encoder to deal with new categories but in this demonstration we will drop the problematic categorical columns.
+
+Identifying the columns that can be safely label encoded:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_1.png' />
+
+Dropping problematic columns and applying label encoding to the rest:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_2.png' />
 
 
 
+<b>One-Hot encoding</b>: One-hot encoding creates new columns indicating the presence (or absence) of each possible value in the original column data. In contrast to ordinal encoding, one-hot encoding does not assume an ordering of the categories. One-hot encoding generally does not perform well if the categorical variable takes on a large number of values.
 
-<b>One-Hot encoding</b>: One-hot encoding creates new columns indicating the presence (or absence) of each possible value in the original column data. In contrast to ordinal encoding, one-hot encoding does not assume an ordering of the categories. One-hot encoding generally does not perform well if the categorical variable takes on a large number of values
+Investigating <b>cardinality</b> in each column with categorical data:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_3.png' />
+
+
+Selecting <b>low cardinality columns</b> to One-Hot encode:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_4.png' />
+
+
+Applying <b>one-hot</b> encoding to training and validation data:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
 
 
 
