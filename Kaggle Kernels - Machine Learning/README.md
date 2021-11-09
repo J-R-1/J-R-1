@@ -190,13 +190,17 @@ Applying <b>one-hot</b> encoding to training and validation data:
 
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-pipelines.ipynb'>This Kernel</a> demonstrates how to improve the efficiency of our machine learning code using <b>pipelines</b>.
 
-
+Using <b>ColumnTransformer</b> class to bundle preprocessing for numerical and categorical data :
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/pipeline_1.png' />
 
 
+Define a <b>Random Forest</b> model:
+
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/pipeline_2.png' />
 
+
+Train and Evaluate the model using <b>Pipeline</b>:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/pipeline_3.png' />
 
