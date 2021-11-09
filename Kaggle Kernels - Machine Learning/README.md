@@ -156,6 +156,11 @@ Train and Evaluate a <b>Random Forest</b> model using Imputed datasets:
 
 
 
+<b>One-Hot encoding</b>: One-hot encoding creates new columns indicating the presence (or absence) of each possible value in the original column data. In contrast to ordinal encoding, one-hot encoding does not assume an ordering of the categories. One-hot encoding generally does not perform well if the categorical variable takes on a large number of values
+
+
+
+
 
 ### <a id='Pipelines'>Pipelines</a>
 -----------------------------------------------------------------
