@@ -207,10 +207,22 @@ Train and Evaluate the model using <b>Pipeline</b>:
 
 
 
-
-
 ### <a id='Cross_Validation'>Cross-Validation</a>
 -----------------------------------------------------------------
+
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-cross-validation.ipynb'>This Kernel</a> demonstrates how to use cross-validation to select <b>best</b> parameter(s) for a machine learning model. 
+
+In this project we will evaluate the model performance corresponding to eight different values for the number of trees in the random forest: 50, 100, 150, ..., 300, 350, 400.
+
+Creating a function that returns the average MAE over 3 CV folds of random forest model 
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_1.png' />
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_2.png' />
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_3.png' />
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_4.png' />
 
 
 
