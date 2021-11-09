@@ -186,6 +186,20 @@ Applying <b>one-hot</b> encoding to training and validation data:
 ### <a id='Pipelines'>Pipelines</a>
 -----------------------------------------------------------------
 
+<b>Pipelines</b> are a simple way to keep data preprocessing and modeling code organized. Specifically, a pipeline bundles preprocessing and modeling steps so we can use the whole bundle as if it were a single step. Pipelines offers some important benefits like Cleaner Code, Fewer Bugs, Easier to Productionize and More Options for Model Validation.
+
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-pipelines.ipynb'>This Kernel</a> demonstrates how to improve the efficiency of your machine learning code using <b>pipelines</b>.
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
+
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
+
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
+
+
+
 
 
 
