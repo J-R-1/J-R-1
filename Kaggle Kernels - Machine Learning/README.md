@@ -190,13 +190,13 @@ Applying <b>one-hot</b> encoding to training and validation data:
 
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-pipelines.ipynb'>This Kernel</a> demonstrates how to improve the efficiency of your machine learning code using <b>pipelines</b>.
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/pipeline_1.png' />
 
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/pipeline_2.png' />
 
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_5.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/pipeline_3.png' />
 
 
 
