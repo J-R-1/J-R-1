@@ -149,6 +149,11 @@ Train and Evaluate a <b>Random Forest</b> model using Imputed datasets:
 ### <a id='Categorical_Variables'>Categorical Variables</a>
 -----------------------------------------------------------------
 
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-categorical-variables.ipynb'>This Kernel</a> demonstrates how to handle <b>Categorical Variables</b> using <b>Label encoding</b> and with <b>One-Hot encoding</b>.
+
+<b>Label encoding</b>: Fitting a label encoder to a column in the training data creates a corresponding integer-valued label for each unique value that appears in the training data. In the case that the validation data contains values that don't appear in the training data, the encoder will throw an error, because these values won't have an integer assigned to them. There are many approaches to fixing this issue like writing a custom label encoder to deal with new categories but for now we will drop the problematic categorical columns.
+
+
 
 
 
