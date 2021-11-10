@@ -231,26 +231,27 @@ From the above <b>plot</b>, we can clearly see that the value <b>200</b> for <b>
 ### <a id='XGBoost'>XGBoost</a>
 -----------------------------------------------------------------
 
-<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-xgboost.ipynb'>This Kernel</a> demonstrates how to build and fit a model using XGBoost stands for <b>extreme gradient boosting</b> which is an implementation of <b>gradient boosted decision trees</b> designed for Execution Speed and Model Performance.
+<b>XGBoost</b> stands for <b>extreme gradient boosting</b> which is an implementation of <b>gradient boosted decision trees</b> designed for Execution Speed and Model Performance. <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-xgboost.ipynb'>This Kernel</a> demonstrates how to build and fit a model using XGBoost.
 
- The XGBRegressor class has many tunable parameters, but the few that dramatically affect accuracy and training speed are :
+ The <b>XGBRegressor</b> class has many tunable parameters, but the few that dramatically affect accuracy and training speed are :
  
  <ol>
   <li><b>n_estimators</b></li> -  specifies how many times to go through the modeling cycle or in other words, number of models that we include in the ensemble.
-  <li><b>learning_rate</b></li> - a small number that will be multiplied to the predictions from each model.
+  <li><b>learning_rate</b></li> - a small number that will be multiplied to the predictions from each model before adding them in.
   <li><b>n_jobs</b></li> - number of cores on a machine. When runtime is a consideration, we can use parallelism to build our models faster.
  </ol>
 In general, a <b>small learning rate and large number of estimators</b> will yield more accurate XGBoost models, though it will also take the model longer to train since it does more iterations through the cycle. As default, XGBoost sets learning_rate=0.1.
-
-early_stopping_rounds:
-
-early_stopping_rounds offers a way to automatically find the ideal value for n_estimators. Early stopping causes the model to stop iterating when the validation score stops improving, even if we aren't at the hard stop for n_estimators. Since random chance sometimes causes a single round where validation scores don't improve, we need to specify a number for how many rounds of straight deterioration to allow before stopping.
 <br>
-It's smart to set a high value for n_estimators and then use early_stopping_rounds to find the optimal time to stop iterating. Setting early_stopping_rounds=5 is a reasonable choice.
+<br>
+<br>
+<b>early_stopping_rounds</b>:
 
-eval_set:
+<b>early_stopping_rounds</b> offers a way to automatically find the ideal value for n_estimators. Early stopping causes the model to stop iterating when the validation score stops improving, even if we aren't at the hard stop for n_estimators. Since random chance sometimes causes a single round where validation scores don't improve, we need to specify a number for how many rounds of straight deterioration to allow before stopping.
+It's smart to set a high value for n_estimators and then use early_stopping_rounds to find the optimal time to stop iterating. 
 
-When using early_stopping_rounds, we need to set aside some data for calculating the validation scores - this is done by setting the eval_set parameter.
+<b>eval_set</b>:
+
+When using <b>early_stopping_rounds</b>, we need to set aside some data for calculating the validation scores - this is done by setting the <b>eval_set</b> parameter.
 
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/xg.png' />
