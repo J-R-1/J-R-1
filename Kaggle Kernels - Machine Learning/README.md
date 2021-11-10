@@ -243,8 +243,9 @@ From the above <b>plot</b>, we can clearly see that the value <b>200</b> for <b>
 In general, a <b>small learning rate and large number of estimators</b> will yield more accurate XGBoost models, though it will also take the model longer to train since it does more iterations through the cycle. As default, XGBoost sets learning_rate=0.1.
 <br>
 <br>
-<br>
+
 <b>early_stopping_rounds</b>:
+
 
 <b>early_stopping_rounds</b> offers a way to automatically find the ideal value for n_estimators. Early stopping causes the model to stop iterating when the validation score stops improving, even if we aren't at the hard stop for n_estimators. Since random chance sometimes causes a single round where validation scores don't improve, we need to specify a number for how many rounds of straight deterioration to allow before stopping.
 It's smart to set a high value for n_estimators and then use early_stopping_rounds to find the optimal time to stop iterating. 
