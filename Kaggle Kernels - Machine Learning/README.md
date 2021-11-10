@@ -231,6 +231,10 @@ From the above <b>plot</b>, we can clearly see that the value <b>200</b> for <b>
 ### <a id='XGBoost'>XGBoost</a>
 -----------------------------------------------------------------
 
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-xgboost.ipynb'>This Kernel</a> demonstrates how to build and fit a model using XGBoost.
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_3.png' />
+ 
 
 
 ### <a id='Data_Leakage'>Data Leakage</a>
