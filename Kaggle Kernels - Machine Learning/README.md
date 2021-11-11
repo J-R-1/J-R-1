@@ -262,38 +262,39 @@ When using <b>early_stopping_rounds</b>, we need to set aside some data for calc
 ### <a id='Data_Leakage'>Data Leakage</a>
 --------------------------------------------
 
-The goal of predictive modeling is to develop a model that makes accurate predictions on new data, unseen during training. This is a hard problem.
+The goal of <b>predictive modeling</b> is to develop a model that makes accurate predictions on new data, unseen during training. This is a hard problem.
 It’s hard because we cannot evaluate the model on something we don’t have.
-
+<br>
 Therefore, we must estimate the performance of the model on unseen data by training it on only some of the data we have and evaluating it on the rest of the data.
 This is the principle that underlies cross validation and more sophisticated techniques that try to reduce the variance in this estimate.
 
-
-Data leakage (or leakage) happens when our training data contains information about the target, but similar data will not be available when the model is used for prediction. This leads to high performance on the training set (and possibly even the validation data), but the model will perform poorly in production.
-
+<b>Data leakage (or leakage)</b> happens when our training data contains information about the target, but similar data will not be available when the model is used for prediction. This leads to high performance on the training set (and possibly even the validation data), but the model will perform poorly in production.
+<br>
 Data leakage can cause you to create overly optimistic if not completely invalid predictive models.
 
-There are two main types of leakage: target leakage and train-test contamination.
+There are two main types of leakage: Target leakage and Train-Test contamination.
 
-Target leakage:
+<b>Target leakage</b>:
 
-Target leakage occurs when your predictors include data that will not be available at the time you make predictions. It is important to think about target leakage in terms of the timing or chronological order that data becomes available, not merely whether a feature helps make good predictions.
+Target leakage occurs when our predictors include data that will not be available at the time we make predictions. It is important to think about target leakage in terms of the timing or chronological order that data becomes available, not merely whether a feature helps make good predictions.
 
-Train-Test Contamination:
+<b>Train-Test Contamination</b>:
 
-train-test contamination occurs when we did not distinguish training data from validation data. validation is meant to be a measure of how the model does on data that it hasn't considered before. But, This process is corrupted if the validation data affects the preprocessing behavior.
+Train-Test contamination occurs when we did not distinguish training data from validation data. Validation is meant to be a measure of how a model does on data that it hasn't considered before. But, this process is corrupted if the validation data affects the preprocessing behavior.
 
-How to combat Data Leakage:
-
-Temporal Cutoff. Remove all data just prior to the event of interest, focusing on the time you learned about a fact or observation rather than the time the observation occurred.
-Add Noise. Add random noise to input data to try and smooth out the effects of possibly leaking variables.
-Remove Leaky Variables. Evaluate simple rule based models line OneR using variables like account numbers and IDs and the like to see if these variables are leaky, and if so, remove them. If you suspect a variable is leaky, consider removing it.
-Use Pipelines. Heavily use pipeline architectures that allow a sequence of data preparation steps to be performed within cross validation folds, such as the caret package in R and Pipelines in scikit-learn.
-Use a Holdout Dataset. Hold back an unseen validation dataset as a final sanity check of your model before you use it.
+<b>How to combat Data Leakage</b>:
 
 
-This Kernel talks about how to identify and prevent data leakage through a series of real world problems. Data Leakage is a hard and subtle issue.
-By combining caution, common sense, and data exploration  we can over come data leakage when developing predictive models and aviod multi-million dollar mistake in many data science applications.
+<ol>
+  <li><b>Temporal Cutoff</b>: Remove all data just prior to the event of interest, focusing on the time we learned about a fact or observation rather than the time the observation occurred.</li>
+  <li><b>Add Noise</b>: Add random noise to input data to try and smooth out the effects of possibly leaking variables.</li>
+  <li><b>Remove Leaky Variables</b>: Evaluate simple rule based models like OneR and see if any of the variables are leaky, and if so, remove them. </li>
+  <li><b>Use Pipelines</b>: Heavily use pipeline architectures that allow a sequence of data preparation steps to be performed within cross validation folds, such as the caret package in R and Pipelines in scikit-learn.</li>
+  <li><b>Use a Holdout Dataset</b>: Hold back an unseen validation dataset as a final sanity check of our model before we use it.</li>
+</ol>
+
+
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-xgboost.ipynb'>This Kernel</a> talks about how to identify and prevent data leakage through a series of real world problems. Data Leakage is a hard and subtle issue. By combining <b>caution, common sense, and data exploration</b>  we can over come data leakage when developing predictive models and aviod multi-million dollar mistake in many data science applications.
 
 
 
