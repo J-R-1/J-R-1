@@ -212,9 +212,12 @@ Train and Evaluate the model using <b>Pipeline</b>:
 
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-cross-validation.ipynb'>This Kernel</a> demonstrates how to use cross-validation to select <b>best</b> parameter(s) for a machine learning model. 
 
-In this project, we will create a function that returns the average MAE over 3 CV folds of random forest model corresponding to eight different values of <b>n_estimators</b> parameter: 50, 100, 150, ..., 300, 350, 400. The results are stored in a Python dictionary <b>results</b>, where <b>results[i]</b> is the average MAE returned by the function <b>get_score(i)</b>.
+In this project, we will create a function that returns the average MAE over 3 CV folds of random forest model corresponding to eight different values of <b>n_estimators</b> parameter: 50, 100, 150, ..., 300, 350, 400. Our goal is to find the value of <b>n_estimators</b> parameter which returns the <b>lowest</b> average MAE.
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_1.png' />
+
+
+Calling the <b>get_score()</b> function for each value of the <b>n_estimators</b>:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_2.png' />
 
