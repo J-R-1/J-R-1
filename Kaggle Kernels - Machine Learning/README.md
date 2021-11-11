@@ -290,7 +290,7 @@ Train-Test contamination occurs when we did not distinguish training data from v
   <li><b>Add Noise</b>: Add random noise to input data to try and smooth out the effects of possibly leaking variables.</li>
   <li><b>Remove Leaky Variables</b>: If any variable is subject to data leakage, consider removing them. </li>
   <li><b>Use Pipelines</b>: Heavily use pipeline architectures that allow a sequence of data preparation steps to be performed within cross validation folds, such as the caret package in R and Pipelines in scikit-learn.</li>
-  <li><b>Use a Holdout Dataset</b>: Hold back an unseen validation dataset as a final sanity check of our model before we use it.</li>
+  <li><b>Use a Holdout Dataset</b>: Hold back an unseen validation dataset as a final sanity check of our model.</li>
 </ol>
 
 
