@@ -270,9 +270,9 @@ This is the principle that underlies cross validation and more sophisticated tec
 
 <b>Data leakage (or leakage)</b> happens when our training data contains information about the target, but similar data will not be available when the model is used for prediction. This leads to high performance on the training set (and possibly even the validation data), but the model will perform poorly in production.
 <br>
-Data leakage can cause you to create overly optimistic if not completely invalid predictive models.
+Data leakage can cause us to create overly optimistic if not completely invalid predictive models.
 
-There are two main types of leakage: Target leakage and Train-Test contamination.
+There are two main types of leakage: <b>Target leakage</b> and <b>Train-Test contamination</b>.
 
 <b>Target leakage</b>:
 
@@ -288,13 +288,13 @@ Train-Test contamination occurs when we did not distinguish training data from v
 <ol>
   <li><b>Temporal Cutoff</b>: Remove all data just prior to the event of interest, focusing on the time we learned about a fact or observation rather than the time the observation occurred.</li>
   <li><b>Add Noise</b>: Add random noise to input data to try and smooth out the effects of possibly leaking variables.</li>
-  <li><b>Remove Leaky Variables</b>: Evaluate simple rule based models like OneR and see if any of the variables are leaky, and if so, remove them. </li>
+  <li><b>Remove Leaky Variables</b>: If any variable is subject to data leakage, consider removing them. </li>
   <li><b>Use Pipelines</b>: Heavily use pipeline architectures that allow a sequence of data preparation steps to be performed within cross validation folds, such as the caret package in R and Pipelines in scikit-learn.</li>
   <li><b>Use a Holdout Dataset</b>: Hold back an unseen validation dataset as a final sanity check of our model before we use it.</li>
 </ol>
 
 
-<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-xgboost.ipynb'>This Kernel</a> talks about how to identify and prevent data leakage through a series of real world problems. Data Leakage is a hard and subtle issue. By combining <b>caution, common sense, and data exploration</b>  we can over come data leakage when developing predictive models and aviod multi-million dollar mistake in many data science applications.
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-data-leakage.ipynb'>This Kernel</a> talks about how to identify and prevent data leakage through a series of real world problems. Data Leakage is a hard and subtle issue. By combining <b>caution, common sense, and data exploration</b>  we can over come data leakage when developing predictive models and aviod multi-million dollar mistake in many data science applications.
 
 
 
