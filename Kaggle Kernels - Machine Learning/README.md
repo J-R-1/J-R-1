@@ -117,7 +117,7 @@ Using the Best tree size, fitting the model with all data:
 
 The <b>Random forest</b> uses many <b>Decision trees</b>, and it makes a prediction by averaging the predictions of each component tree. It generally has much better predictive accuracy than a single decision tree and it works well with default parameters.
 
-To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> class from the <b>scikit-learn</b> library.
+To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> class from the <b>scikit-learn</b> library. <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-random-forests.ipynb'>This Kernel</a> demonstrates how a <b>Random forest</b> model even without tuning can lead to better performance.
 
 
 <b>Validation MAE</b> when using <b>Decision Tree</b> model:
