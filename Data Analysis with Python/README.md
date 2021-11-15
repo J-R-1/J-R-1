@@ -22,7 +22,7 @@ The Objective of this project is to analyse and apply modeling techniques to <b>
 
 
 
-#### <b>Checking for outliers of the feature 'waterfront' using Boxplot</b>:
+#### <b>Checking the outliers of the feature 'waterfront' using Boxplot</b>:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_box.png' />
 
@@ -43,6 +43,12 @@ The Objective of this project is to analyse and apply modeling techniques to <b>
 #### <b>Fitting a Linear Regression model using list of features</b>:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_lr.png' />
+
+
+
+#### <b>Using Polynomial Regression and Pipeline, predicting 'price' value</b>:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/Screenshot%20(330).png' />
 
 
 
