@@ -42,7 +42,7 @@ The Objective of this project is to analyse and apply modeling techniques to <b>
 
 #### <b>Fitting a Linear Regression model using list of features</b>:
 
-<img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_corr.png' />
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_lr.png' />
 
 
 
