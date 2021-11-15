@@ -46,9 +46,21 @@ The Objective of this project is to analyse and apply modeling techniques to <b>
 
 
 
-#### <b>Using Polynomial Regression and Pipeline, predicting 'price' value</b>:
+#### <b>Prediction using Polynomial Regression and Pipeline</b>:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/Screenshot%20(330).png' />
+
+
+
+#### <b>Prediction using Ridge Regression</b>:
+
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_rr.png' />
+
+
+
+
+
+
 
 
 
