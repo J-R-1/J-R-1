@@ -7,7 +7,7 @@
 <br>
 <br>
 <br>
-The following is a series of <b>Kaggle Kernels</b> that demonstrates how to apply advanced Data Preprocessing and Model Validation techniques to improve the quality of the Machine learning models to building <b>state-of-the-art</b> models that are widely used to win Kaggle competitions (<b>XGBoost</b>).
+The following is a series of <b>Kaggle Kernels</b> that demonstrates how to apply advanced Data Preprocessing and Model Validation techniques from improving the quality of the Machine learning models to building <b>state-of-the-art</b> models that are widely used to win Kaggle competitions (<b>XGBoost</b>).
 <br>
 <br>
 <ol>
@@ -29,7 +29,7 @@ The following is a series of <b>Kaggle Kernels</b> that demonstrates how to appl
 ### <b>Data Source:</b>
 -------------------------
 
-We will work <a href='https://www.kaggle.com/c/home-data-for-ml-course'>Ames Housing dataset</a> from <b>Kaggle</b> for this project. The dataset has 79 explanatory variables describing (almost) every aspect of residential homes in <b>Ames, Iowa</b>. 
+We will work with <a href='https://www.kaggle.com/c/home-data-for-ml-course'>Ames Housing dataset</a> from <b>Kaggle</b> for this project. The dataset has 79 explanatory variables describing (almost) every aspect of residential homes in <b>Ames, Iowa</b>. 
 
 
 ### <a id='First_ML_Model'>Building a Machine Learning Model:</a>
