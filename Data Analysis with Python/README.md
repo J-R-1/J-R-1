@@ -22,7 +22,7 @@ The Objective of this project is to analyse and apply modeling techniques to <b>
 
 
 
-#### <b>Checking the outliers of the feature 'waterfront' using Boxplot</b>:
+#### <b>Checking for outliers of the feature 'waterfront' using Boxplot</b>:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_box.png' />
 
@@ -59,21 +59,8 @@ The Objective of this project is to analyse and apply modeling techniques to <b>
 
 
 
+#### <b>Ridge Regression using Second Order Polynomial transformation</b>:
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img src='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/da_poly_second.png' />
 
 
