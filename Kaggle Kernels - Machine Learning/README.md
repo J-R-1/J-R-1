@@ -107,7 +107,7 @@ Selecting the <b>max_leaf_node</b> with the <b>least</b> MAE score:
 Here, the optimal value for the <b>Best tree size is 100</b>.
 <br>
 
-Fit the model using the Best tree size:
+Fitting the model with the Best tree size:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/uo_3.png' />
 
