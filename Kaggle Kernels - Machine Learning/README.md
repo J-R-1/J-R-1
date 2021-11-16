@@ -57,9 +57,10 @@ Making Prediction using our model:
 ### <a id='Model_validation'>Model Validation:</a>
 ---------------------------------------------------
 
-In this <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-model-validation.ipynb'>Kernel</a>, we use <b>model validation</b> to measure the quality of our model. Measuring model quality is the key to iteratively improving our models.  In most (though not all) applications, the relevant measure of model quality is <b>predictive accuracy</b>.
+Measuring model quality is the key to iteratively improving our models.  In most (though not all) applications, the relevant measure of model quality is <b>predictive accuracy</b>. 
 
-We will use <b>train_test_split</b> function from the <b>scikit-learn</b> library to break up the data into two pieces. We'll use some of that data as <b>training data</b> to fit the model, and we'll use the other data as <b>validation data</b> to calculate <b>'Mean_Absolute_Error'</b> which is our metric for measuring model quality.
+
+In this <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-model-validation.ipynb'>Kernel</a>, We will use <b>train_test_split</b> function from the <b>scikit-learn</b> library to break up the dataset into two pieces, <b>training and validation</b> datasets. While <b>training data</b> is used to fit the model, we will use the <b>validation data</b> to calculate <b>'Mean_Absolute_Error'</b> which is our metric for measuring model quality.
 
 
 Splitting the dataset into <b>train and validation</b> data:
@@ -91,10 +92,10 @@ Calculating <b>'Mean_Absolute_Error'</b> on the validation data:
 <b>Underfitting</b> - When a model fails to capture important distinctions and patterns in the data, so it performs poorly even in training data.
 <br>
 
-Since we are using <b>DecisionTreeRegressor</b> to <b>fit</b> our model, <b>max_leaf_nodes</b> argument provides a very sensible way to control Overfitting vs Underfitting by controlling the <b>tree depth</b>. <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-underfitting-and-overfitting.ipynb'>This Kernel</a> demonstrates how we can compare the accuracy of models (using <b>MAE scores</b>) built with different values for <b>max_leaf_nodes</b>.
+Since we are using <b>DecisionTreeRegressor</b> to <b>fit</b> our model, <b>max_leaf_nodes</b> argument provides a very sensible way to control Overfitting vs Underfitting by controlling the <b>tree depth</b>. <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-underfitting-and-overfitting.ipynb'>This Kernel</a> demonstrates how to compare the accuracy of models (using <b>MAE scores</b>) built with different values for <b>max_leaf_nodes</b>.
 
 
-Creating a function to compare MAE scores from different values for max_leaf_nodes:
+Creating a function to compare MAE scores for different values of max_leaf_nodes:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/uo_1.png' />
 
@@ -106,7 +107,7 @@ Selecting the <b>max_leaf_node</b> with the <b>least</b> MAE score:
 Here, the optimal value for the <b>Best tree size is 100</b>.
 <br>
 
-Using the Best tree size, fitting the model with all data:
+Fit the model using the Best tree size:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/uo_3.png' />
 
@@ -134,7 +135,7 @@ To build a <b>Random forest</b> model, we will use <b>RandomForestRegressor</b> 
 ### <a id='Missing_Values'>Missing Values</a>
 -----------------------------------------------------------------
 
-<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-missing-values.ipynb'>This Kernel</a> demonstrates how to deal with <b>Missing Values</b> using <b>SimpleImputer</b> class from <b>sklearn</b> library. The <b>SimpleImputer</b> class provides basic strategies for imputing missing values. Missing values can be imputed with a provided <b>constant</b> value, or using the statistics (<b>mean, median or most frequent</b>) of each column in which the missing values are located.
+<a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-missing-values.ipynb'>This Kernel</a> demonstrates how to deal with <b>Missing Values</b> using <b>SimpleImputer</b> class from <b>sklearn</b> library. Missing values can be imputed with a provided <b>constant</b> value, or using the statistics (<b>mean, median or most frequent</b>) of each column in which the missing values are located.
 
 
 Number of <b>Missing Values</b> in the <b>training</b> dataset:
@@ -142,7 +143,7 @@ Number of <b>Missing Values</b> in the <b>training</b> dataset:
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_1.png' />
 
 
-<b>Imputing</b> missing values with the <b>mean</b> value along each column of training and validation datasets: 
+<b>Imputing</b> missing values with the <b>mean</b> value along each column of training and validation datasets using the <b>SimpleImputer</b> class:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/miss_val_2.png' />
 
@@ -158,13 +159,13 @@ Train and Evaluate a <b>Random Forest</b> model using Imputed datasets:
 
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-categorical-variables.ipynb'>This Kernel</a> demonstrates how to handle <b>Categorical Variables</b> using <b>Label encoding</b> and with <b>One-Hot encoding</b>.
 
-<b>Label encoding</b>: Fitting a label encoder to a column in the training data creates a corresponding integer-valued label for each unique value that appears in the training data. In the case that the validation data contains values that don't appear in the training data, the encoder will throw an error, because these values won't have an integer assigned to them. There are many approaches to fixing this issue like writing a custom label encoder to deal with new categories but in this demonstration we will drop the problematic categorical columns.
+<b>Label encoding</b>: Fitting a label encoder to a column in the training data creates a corresponding integer-valued label for each unique value that appears in the training data. In the case that the validation data contains values that don't appear in the training data, the encoder will throw an error, because these values won't have an integer assigned to them. There are many approaches to fixing this issue like writing a custom label encoder to deal with new categories but in this project we will drop the problematic categorical columns.
 
 Identifying the columns that can be safely label encoded:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_1.png' />
 
-Dropping problematic columns and applying label encoding to the rest:
+Dropping problematic columns and <b>label encoding</b> the rest:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cv_2.png' />
 
@@ -224,7 +225,7 @@ In this project, we will create a function that returns the average MAE over 3 C
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_1.png' />
 
 
-Calling the <b>get_score()</b> function for each value of the <b>n_estimators</b>:
+Calling the <b>get_score()</b> function for each value of <b>n_estimators</b> parameter:
 
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/cross_val_2.png' />
 
