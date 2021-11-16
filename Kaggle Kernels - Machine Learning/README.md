@@ -39,7 +39,7 @@ We will work with <a href='https://www.kaggle.com/c/home-data-for-ml-course'>Ame
 <a href='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/exercise-your-first-machine-learning-model.ipynb'>This Kernel</a> demonstrates the basics of building a machine learning model and make predictions using it.  We will use <b>DecisionTreeRegressor</b> from the <b>scikit-learn</b> library to create our model. Many machine learning models allow some randomness in model training. Specifying a number for random_state ensures we get the same results in each run. 
 <br>
 <br>
-Read the data using <b>Pandas read_csv()</b> method and store data in dataFrame named <b>'home_data'</b>:
+Read the data using <b>Pandas read_csv()</b> method:
   
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mb_3.png' />
   
