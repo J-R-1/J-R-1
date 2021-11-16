@@ -68,7 +68,7 @@ Splitting the dataset into <b>train and validation</b> data:
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mv_1.png' />
 <br>
 
-Fitting the model:
+Fitting the model with the <b>training</b> data:
 <br>
 <img src='https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20Kernels%20-%20Machine%20Learning/mv_2.png' />
 <br>
