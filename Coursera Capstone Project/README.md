@@ -61,7 +61,9 @@ I assumed the role of a <b>Data Scientist</b> in the project <b>Finding Safe Nei
 
 
 
-Please refer this <a href='https://github.com/J-R-1/J-R-1/blob/main/Coursera%20Capstone%20Project/Finding%20the%20Safe%20Neighborhoods%20in%20Chicogo%2CIL.pdf'>PDF</a> for a complete elaborateness of Data Science methodologies applied in the project <b>Finding Safe Neighborhoods in Chicago,IL</b>.
+This <a href='https://github.com/J-R-1/J-R-1/blob/main/Coursera%20Capstone%20Project/Finding%20the%20Safe%20Neighborhoods%20in%20Chicogo%2CIL.pdf'>PDF</a> elaborates on Data Science methodologies applied in the project <b>Finding Safe Neighborhoods in Chicago,IL</b>.
+
+Please refer this <a href='https://github.com/J-R-1/J-R-1/blob/main/Coursera%20Capstone%20Project/cap_proj_data_chicago.ipynb'>Notebook</a> for a detail implementation of this project.
 
   
     
