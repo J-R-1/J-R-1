@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
+    </head>
+    <body>
+       <h1> Welcome to Titanic Survivor Prediction page </h1>
+       <form action="#" method="post">
+               <p>Name of Passenger:</p>
+                  <div>
+                      <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10">
+                  </div>
+               <br>
+               <p>Choose Title:</p>
+                  <div>
+                      <select name="Title" >
+                          <option value="" selected disabled hidden >please choose passenger title:</option>
+                          <option value="Mr">Mr</option>
+                          <option value="Mrs">Mrs</option>
+                          <option value="Miss">Miss</option>
+                          <option value="Master">Master</option>
+                          <option value="Rare">Rare</option>
+                      </select>
+                  </div>
+               <br>
+               <p>Gender:</p>
+                  <div>
+                      <input type="radio" name="gender" value="Male"> Male
+                      <br>
+                      <input type="radio" name="gender" value="Female"> Female
+                  </div>
+               <br>
+               <p>Age:</p>
+                  <div>
+                      <input type="range" name="age" value="0" min="1" max="100" step="1" oninput="this.nextElementSibling.value = this.value">
+                      <output>0</output>
+                  </div>
+               <br>
+               <p>IsAlone:</p>
+                   <div>
+                       <input type="radio" name="isalone" value="Yes"> Yes
+                       <br>
+                       <input type="radio" name="isalone" value="No"> No
+                   </div>
+               <br>
+               <p>Passenger Class:</p>
+                  <div>
+                      <select name="pass_class">
+                          <option value="" selected disabled hidden >please choose passenger class:</option>
+                          <option value="First Class">First Class</option>
+                          <option value="Second Class">Second Class</option>
+                          <option value="Third Class">Third Class</option>
+                      </select>
+                  </div>
+               <br>
+               <p>Fare:</p>
+                  <div>
+                      <input type="range" name="fare" value="0" min="1.0" max="550.0" step="1.0" oninput="this.nextElementSibling.value = this.value">
+                      <output>0</output>
+
+                  </div>
+               <br>
+               <p>Port of Leaving:</p>
+                  <div>                      <select name="port">
+                          <option value="" selected disabled hidden >please choose passenger port of leaving:</option>
+                          <option value="C">C</option>
+                          <option value="Q">Q</option>
+                          <option value="S">S</option>
+                      </select>
+                  </div>
+               <br>
+              <input type="submit" value="Submit">
+       </form>
+    </body>
+</html>
