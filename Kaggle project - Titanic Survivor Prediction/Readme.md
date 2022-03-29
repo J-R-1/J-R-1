@@ -97,6 +97,27 @@ Here we are at the Heart and Soul of this project where 9 State of the art <b>Cl
  <br>
   
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_13.png" />
+<br>
+  
+Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
+<br>
+  
+  
+  <b>Model Tuning:</b>
+  <br>
+  
+  Once the Best model was selected, in this case <b>SVC</b>, <b>GridSearchCV</b> was used to find the best parameters for our model.
+  <br>
+  
+  <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_13.png" />
+  
+  
+  <b>The Model:</b>
+  <br>
+  
+  The screenshot below shows how the <b>SVC</b> model and its tuned parameters were used to fit the <b>Train</b> dataset. Using this model, Prediction was made on the <b>Test</b> dataset and submitted to Kaggle for scoring.
+  
+  
 
   
   
