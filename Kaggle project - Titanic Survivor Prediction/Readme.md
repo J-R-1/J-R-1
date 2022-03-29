@@ -36,7 +36,7 @@ The goal of this project is to <b>Predict</b> who will survive and who will not 
   <li>flask==2.0.2</li>
  </ul>
 
-### <b>The Notebook:</b>
+### <b>Overview of the Notebook:</b>
 <hr />
 <b>Titanic Survivor ML Prediction</b> notebook was created in Kaggle platform to predict who <b>Survived</b> and who did not when <b>RMS Titanic</b> sank in the early morning hours of 15 April 1912 in the North Atlantic Ocean. Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
 <br>
@@ -76,6 +76,33 @@ Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20pro
 
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_7.png" />
+
+
+<b>Missing Values:</b>
+<br>
+
+The datasets in this project were examined throughly for any missing values. If the feature(s) had more than 80% of the value missing then that feature was removed from analysis. Otherwise, missing values were substituted based on the domain knowledge of the feature. The screenshot below shows how missing values were handled for <b>'Age'</b> feature.
+<br>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_8.png" />
+<br>
+Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
+<br>
+
+
+<b>Model Selection:</b>
+<br>
+
+Here we are at the Heart and Soul of this project where 9 State of the art <b>Classifiers</b> were chosen to select the best <b>One</b> for Prediction based on its <b>Accuracy</b> value. Using <b>StratifiedKFold()</b> the <b>Train</b> dataset was split into <b>Train and Validation</b> sets. The models were trained on Training set and Accuracy was calculated on Validation set. The screenshot below shows the <b>Models and their <b>Accuracy</b> values.
+ <br>
+  
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_13.png" />
+
+  
+  
+
+
+
 
 
 
