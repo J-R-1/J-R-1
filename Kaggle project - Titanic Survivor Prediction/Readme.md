@@ -72,7 +72,15 @@ Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20pro
 Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
 <br>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_5.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_6.png" />
+
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_7.png" />
+
+
+
+
+
 
 
 
