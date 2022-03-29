@@ -38,19 +38,45 @@ The goal of this project is to <b>Predict</b> who will survive and who will not 
 
 ### <b>The Notebook:</b>
 <hr />
-<b>Titanic Survivor ML Prediction</b> notebook created in Kaggle platform to predict who <b>Survived</b>and who did not when <b>RMS Titanic</b> sank in the early morning hours of 15 April 1912 in the North Atlantic Ocean. Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
+<b>Titanic Survivor ML Prediction</b> notebook was created in Kaggle platform to predict who <b>Survived</b> and who did not when <b>RMS Titanic</b> sank in the early morning hours of 15 April 1912 in the North Atlantic Ocean. Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
 <br>
+
 <b>Lets take a peek into the datasets:</b>
 <ol>
   <li><b>Train:</b>
     <br>
-    <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titnic_sc_1.png" />
+    <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_3.png" />
   </li>
   <li><b>Test:</b>
     <br>
-    <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titnic_sc_1.png" />
+    <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_4.png" />
   </li>
  </ol>
+ 
+ <b>Data Analysis:</b>
+ <br>
+ 
+ Each <b>feature</b> from the train dataset were analysed throughly to determine its importance in <b>Predicting</b> the Survival rate of the passenger. The screenshot below shows the analysis of the features <b>'Pcalss'</b> stands for Passenger Class and <b>'Sex'</b>.
+ <br>
+Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail analysis and implementataion of this project.
+ <br>
+ 
+ <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_5.png" />
+ 
+ 
+ <b>Feature Engineering:</b>
+ <br>
+ 
+ When there were redundant features present and dose not make sence individually they were combained to form a new feature. This new feature is then analysed to see its importance in predicting the target. The screenshot below shows the Feature Engineering of the features <b>'SibSp'</b> stands for Siblings and Spouse and <b>'Parch'</b>stands for Parents and Children. 
+<br>
+Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
+<br>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic_sc_5.png" />
+
+
+
+ 
     
     
   
