@@ -38,7 +38,7 @@ The goal of this project is to <b>Predict</b> who will survive and who will not 
 
 ### <b>The Notebook:</b>
 <hr />
-<b>Titanic Survivor ML Prediction</b> notebook created in Kaggle platform to predict who <b>Survived</b>and who did not when <b>RMS Titanic</b> sank in the early morning hours of 15 April 1912 in the North Atlantic Ocean. Please refer the Notebook for the detail implementataion of this project.
+<b>Titanic Survivor ML Prediction</b> notebook created in Kaggle platform to predict who <b>Survived</b>and who did not when <b>RMS Titanic</b> sank in the early morning hours of 15 April 1912 in the North Atlantic Ocean. Please refer the <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titanic-survivor-ml-prediction.ipynb"> Notebook </a> for the detail implementataion of this project.
 <br>
 <b>Lets take a peek into the datasets:</b>
 <ol>
