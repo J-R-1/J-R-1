@@ -28,11 +28,33 @@ The goal of this project is to <b>Predict</b> who will survive and who will not 
 ### <b>Technologies Used:</b>
 <hr />
 <ul>
-  scikit-learn==0.23.2
-  pandas==1.1.3
-  numpy==1.18.5
+  <li>python==3.7.6(Kaggle)</li>
+  <li>python==3.7.11(pycharm)</li>
+  <li>pandas==1.1.3</li>
+  <li>numpy==1.18.5</li>
+  <li>scikit-learn==0.23.2</li>
+  <li>flask==2.0.2</li>
  </ul>
 
+### <b>The Notebook:</b>
+<hr />
+<b>Titanic Survivor ML Prediction</b> notebook created in Kaggle platform to predict who <b>Survived</b>and who did not when <b>RMS Titanic</b> sank in the early morning hours of 15 April 1912 in the North Atlantic Ocean. Please refer the Notebook for the detail implementataion of this project.
+<br>
+<b>Lets take a peek into the datasets:</b>
+<ol>
+  <li><b>Train:</b>
+    <br>
+    <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titnic_sc_1.png" />
+  </li>
+  <li><b>Test:</b>
+    <br>
+    <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Titanic%20Survivor%20Prediction/titnic_sc_1.png" />
+  </li>
+ </ol>
+    
+    
+  
+  
   
 
 
