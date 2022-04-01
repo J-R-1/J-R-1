@@ -2,7 +2,7 @@
 #  <b>Data Analysis with Python</b>
 
 
-The Objective of this project is to <b>analyse and apply</b> modeling techniques to housing price data for King County, USA which includes Seattle from May 2014 - May 2015 in a Question and Answer format.
+The Objective of this project is to <b>analyse the data and apply</b> modeling techniques to housing price data for King County, USA which includes Seattle from May 2014 - May 2015 in a Question and Answer format.
 
 
 Please refer this <a href='https://github.com/J-R-1/J-R-1/blob/main/Data%20Analysis%20with%20Python/Data_Analysis_using_Python.ipynb'>Notebook</a> for a detail implementation of this project.
