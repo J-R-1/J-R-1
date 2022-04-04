@@ -35,14 +35,24 @@ The datasets used for this project can be found <a href="https://www.kaggle.com/
 #### <b> lets take a quick look at the datasets:</b>
 <br>
 
-<b>Train set:</b>
 <br>
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_1.png" />
 
 
-<b>Test set:</b>
 <br>
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_2.png" />
+
+#### <b>Data Analysis:</b>
+<br>
+After doing some structural investigation on our datasets like exploring the general shape as well as the data types of the features, we focus our attention to the Quality and Content of our datasets with regards to Missing values, Outliers, Feature values and their correlation to the target variable<b>(sale price)</b>.
+<br>
+
+<b>Missing values in the train dataset:</b>
+<br>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_2.png" />
+
+
   
 
  
