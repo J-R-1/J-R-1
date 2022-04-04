@@ -93,11 +93,12 @@ Irrelevant or partially relevant features can negatively impact model performanc
 
 2. Using <b>Person Correaltion coefficient</b>, Highly correlated features were identified and removed from the Train and Test datasets.
 <br>
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_7.png" />
 
-3. Redundant <b>Categorical features</b> from Train dataset (which were not present in the Test dataset) were identified and removed.
+
+3. Redundant <b>Categorical features</b> from the Train dataset (which were not present in the Test dataset) were identified and removed.
 <br>
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_8.png" />
 
 
 
