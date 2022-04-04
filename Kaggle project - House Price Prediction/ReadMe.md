@@ -79,6 +79,10 @@ Numerical variables have 2 categories.. 1. Discrete 2. Continous. Analysis of Nu
 <br>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_6.png" />
+<br>
+
+<b>Removing Redundant features:</b>
+
 
 
 
