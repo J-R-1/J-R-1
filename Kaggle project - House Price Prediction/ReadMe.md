@@ -60,6 +60,26 @@ Lets take a peek at the <b>Missing values in the train</b> dataset:
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_4.png" />
 <br>
 Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/House%20Price%20Prediction%20-%20Kaggle%20Project.ipynb">notebook</a> for complete implementation of this project.
+<br>
+
+<b>Analysis of the Numerical features:</b>
+<br>
+
+Numerical variables have 2 categories.. 1. Discrete 2. Continous. Analysis of Numerical features will give us some insights about how many Discrete varibales (Features with unique values range from 3 to ~ 25) and Continous variables (more than 25 unique values) in the dataset.
+
+
+<b>Discrete Numeric variables in the train dataset:</b>
+<br>
+
+<img src="" />
+
+
+<b>Visualizing Contiunous variables in the train dataset:</b>
+<br>
+
+<img src="" />
+
+
 
 
 
