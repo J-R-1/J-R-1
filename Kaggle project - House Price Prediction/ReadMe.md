@@ -32,6 +32,19 @@ The datasets used for this project can be found <a href="https://www.kaggle.com/
  There were 80 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, US. This project aims to predict the final price of each home. Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/House%20Price%20Prediction%20-%20Kaggle%20Project.ipynb">notebook</a> for complete implementation of this project.
 <br>
 
+#### <b> lets take a quick look at the datasets:</b>
+<br>
+
+<b>Train set:</b>
+<br>
+<img src="" />
+
+
+<b>Test set:</b>
+<br>
+<img src="" />
+  
+
  
 
 
