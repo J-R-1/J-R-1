@@ -82,6 +82,23 @@ Numerical variables have 2 categories.. 1. Discrete 2. Continous. Analysis of Nu
 <br>
 
 <b>Removing Redundant features:</b>
+<br>
+
+Models based on highly correlated features need more iterations and therefore take longer to train. Therefore it is in our best interest to identify and remove feature redundancy. Here in this project, the following steps were taken to remove redundant features.
+<br>
+
+
+1. Features with more than 90% of the data missing were removed from Train and Test datasets.
+<br>
+
+2. Using <b>Person Correaltion coefficient</b>, Highly correlated features were identified and removed from the Train and Test datasets.
+<br>
+<img src="" />
+
+3. Redundant <b>Categorical features</b> from Train dataset (which were not present in the Test dataset) were identified and removed.
+<br>
+<img src="" />
+
 
 
 
