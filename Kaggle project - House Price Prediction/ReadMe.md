@@ -121,13 +121,13 @@ Skewness of numerical features from the datasets which showed strong non-gaussia
 Target varible with observed values:
 <br>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_8.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_9.png" />
 
 
 Target varible after log-transformation:
 <br>
 
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_8.png" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_10.png" />
 
 
 
