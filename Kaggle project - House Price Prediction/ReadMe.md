@@ -91,24 +91,19 @@ Irrelevant or partially relevant features can negatively impact model performanc
 1. Features with more than 90% of the data missing were removed from Train and Test datasets.
 <br>
 
-2. Using <b>Person Correaltion coefficient</b>, Highly correlated features were identified and removed from the Train and Test datasets.
+2. Using <b>Person Correaltion coefficient</b>, Highly correlated features were removed from the Train and Test datasets. Redundant <b>Categorical features</b> from the Train dataset (which were not present in the Test dataset) were identified and removed.
 <br>
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_7.png" />
-
-
-3. Redundant <b>Categorical features</b> from the Train dataset (which were not present in the Test dataset) were identified and removed.
-<br>
-<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_8.png" />
 
 
 
 <b>Handling Missing Values:</b>
 <br>
 
-For Numeric features, if the feature has outliers then <b>Median</b> value was chosen otherwise <b>mean imputation</b> was used to fillup those missing gaps.
+For Numeric features, if the feature has many outliers then <b>Median</b> value was chosen otherwise <b>mean imputation</b> was used to fillup those missing gaps.
 <br>
 
-For Catagorical features, the <b>Highest frequency</b> values of that feature were chosen to fillup the missing values.
+For Catagorical features, the value was chosen based on the <b>Highest frequency</b> to fillup the missing gaps.
 <br>
 
 
