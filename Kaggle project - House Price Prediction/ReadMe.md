@@ -102,6 +102,40 @@ Irrelevant or partially relevant features can negatively impact model performanc
 
 
 
+<b>Handling Missing Values:</b>
+<br>
+
+For Numeric features, if the feature has outliers then <b>Median</b> value was chosen otherwise <b>mean imputation</b> was used to fillup those missing gaps.
+<br>
+
+For Catagorical features, the <b>Highest frequency</b> values of that feature were chosen to fillup the missing values.
+<br>
+
+
+<b>Skewness:</b>
+<br>
+
+Skewness of numerical features from the datasets which showed strong non-gaussian distributions were fixed by taking log-transformation of the feature values. The screenshot below shows how the Skewness of the target variable fixed. 
+<br>
+
+Target varible with observed values:
+<br>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_8.png" />
+
+
+Target varible after log-transformation:
+<br>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_8.png" />
+
+
+
+
+  
+
+
+
 
 
 
