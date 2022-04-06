@@ -11,7 +11,7 @@ The datasets used for this project can be found <a href="https://www.kaggle.com/
 <ul>
   <li><b>train.csv</b> - Used for Data analysis and Model training.</li>
   <li><b>test.csv</b> - Used for Prediction.</li>
-  <li><b>sample_submission.csv</b> - Used for submission(for scoring).</li>
+  <li><b>sample_submission.csv</b> - Used for scoring submission.</li>
 </ul>
 
 
@@ -41,7 +41,7 @@ The datasets used for this project can be found <a href="https://www.kaggle.com/
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_2.png" />
 
 
-### <b>Data Analysis:</b>
+### <b>Exploratory Data Analysis:</b>
 <br>
 
 After doing some structural investigation on our datasets like exploring the general shape as well as the data types of the features, we focus our attention to the Quality and Content of our datasets with regards to Missing values, Outliers, Feature values and how they relate to the target variable<b>(sale price)</b>.
@@ -54,7 +54,7 @@ Lets take a peek at the <b>Missing values in the train</b> dataset:
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_3.png" />
 <br>
 
-<b>Sale price vs Features with missing values (1):</b>
+<b>Visualizing features with missing values(1) vs Sale price:</b>
 <br>
 
 <img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_4.png" />
@@ -63,10 +63,8 @@ Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20pro
 <br>
 
 
-<b>Analysis of Numerical features:</b>
-<br>
 
-Numerical variables have 2 categories.. 1. Discrete 2. Continous. Analysis of Numerical features will give us some insights about how many Discrete varibales (Features with unique values range from 3 to ~ 25) and Continous variables (more than 25 unique values) are in the dataset.
+Numerical variables have 2 categories.. <b>1. Discrete 2. Continous</b>. Analysis of Numerical features will give us some insights about how many Discrete varibales (Features with unique values range from 3 to ~ 25) and Continous variables (more than 25 unique values) are in the dataset.
 
 
 <b>Discrete Numerical variables in the train dataset:</b>
