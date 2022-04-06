@@ -126,16 +126,16 @@ Target varible after log-transformation:
 
 
 
+<b>Feature Selection and Model building:</b>
+<br>
 
-  
+<b>mutual_info_regression</b> statistics was used in the <b>SelectKBest()</b> feature selection strategy to select the 'k' best features. <b>GridSearchCV</b> was used to systematically test a range of different numbers of selected features and discover which results in the best performing model. <b>XGBRegressor()</b> was chosen as a perferred model for this task. <b>RepeatedKFold</b> class was used to evaluate model configurations. We used three repeats of 10-fold cross-validation for this project.
+<br>
+
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/hp_11.png" />
 
 
-
-
-
-
-
-  
+Please refer this <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20House%20Price%20Prediction/House%20Price%20Prediction%20-%20Kaggle%20Project.ipynb">notebook</a> for complete implementation of this project.
 
  
 
