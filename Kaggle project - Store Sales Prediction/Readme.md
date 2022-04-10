@@ -32,3 +32,30 @@ The Key elements to note in this Notebook are:
   <li>A <b>Hybrid Model</b> which combined the strengths of two forecasters - <b>ElasticNet and RandomForestRegressor</b> was chosen for this project. ElasticNet (which is a popular type of regularized linear regression) was used to extrapolate the trend, transform the target to remove the trend, and RandomForestRegressor (one of few inherently Multioutput Regressior) was trained on the detrended residuals along with remaining features of the training data.</li> 
 </ul>
 
+
+### <b>Project Demo:</b>
+<br>
+
+<b>Detrended Sales after applying ElasticNet (Model_1):</b>
+<br>
+
+<img src="" />
+<br>
+
+
+<b>RandomForestRegressor (Model_2) Prediction on training data:</b>
+<br>
+
+<img src="" />
+
+
+<b>Forecasting sales of a specific store and family:</b>
+<br>
+
+<img src="" />
+
+
+
+
+
+
