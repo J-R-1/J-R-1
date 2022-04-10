@@ -39,20 +39,23 @@ The Key elements to note in this Notebook are:
 <b>Detrended Sales after applying ElasticNet (Model_1):</b>
 <br>
 
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Store%20Sales%20Prediction/ts_1.png" />
 <br>
 
 
 <b>RandomForestRegressor (Model_2) Prediction on training data:</b>
 <br>
 
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Store%20Sales%20Prediction/ts_2.png" />
 
 
 <b>Forecasting sales of a specific store and family:</b>
 <br>
 
-<img src="" />
+<img src="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Store%20Sales%20Prediction/ts_3.png" />
+<br>
+
+ Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Kaggle%20project%20-%20Store%20Sales%20Prediction/time-series-store-sales-prediction.ipynb">this notebook</a> for a complete implementation of this project.
 
 
 
