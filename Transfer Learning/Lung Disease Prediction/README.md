@@ -70,7 +70,7 @@ For the project <b>Lung Disease Classification</b>:
 <br>
 
 <ul>
-   <li>Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Transfer%20Learning/Lung%20Disease%20Prediction/LD_VGG16.ipynb">here</a> for complete implementation of the <b>VGG16</b> model.</li>
-   <li>Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Transfer%20Learning/Lung%20Disease%20Prediction/LD_Inceptionv3.ipynb">here</a> for complete implementation of the <b>Inceptionv3</b> model.</li>
-   <li>Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Transfer%20Learning/Lung%20Disease%20Prediction/LD_ResNet50%20(1).ipynb">here</a> for complete implementation of the <b>ResNet50</b> model.</li>
+   <li>Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Transfer%20Learning/Lung%20Disease%20Prediction/Data_aug__LD_VGG16.ipynb">here</a> for complete implementation of the <b>VGG16</b> model.</li>
+   <li>Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Transfer%20Learning/Lung%20Disease%20Prediction/Dataaug_w_wgts_LD_Inceptionv3.ipynb">here</a> for complete implementation of the <b>Inceptionv3</b> model.</li>
+   <li>Please refer <a href="https://github.com/J-R-1/J-R-1/blob/main/Transfer%20Learning/Lung%20Disease%20Prediction/Dataaug_w_wgts__LD_ResNet50.ipynb">here</a> for complete implementation of the <b>ResNet50</b> model.</li>
 
